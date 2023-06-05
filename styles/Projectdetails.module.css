@@ -1,0 +1,39 @@
+
+.buttondiv{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.detailopen, .detailclosed{
+    margin:0 20px;
+}
+.togglebutton{
+    height: 43%;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #2f465b;
+    color: #F7F7F7;
+}
+
+.detail{
+    background-color:#F6F6F6;
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.detail span{
+    color: #2f465b;
+}
+
+.detail li{
+    color:#2f465b;;
+    list-style-type: none;
+    padding: 0;
+}

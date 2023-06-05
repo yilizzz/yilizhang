@@ -1,0 +1,57 @@
+// Custom.scss
+// https://getbootstrap.com/docs/5.0/customize/sass/
+
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// 2. Include any default variable overrides here
+
+// bootstrap overrides 
+$primary: #2f465b;
+$secondary: #F7F7F7;
+$light: #FFFFFF;
+@import "~bootstrap/scss/functions";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+$font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$card-border-radius: 15px;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+// 4. Layout & components (optional Bootstrap components)
+// 5. Utilities
+// @import "~bootstrap/scss/utilities/api";
+@import "~bootstrap/scss/bootstrap";
+// 5. Add additional custom code here
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon-style, .fw-bold {
+  font-family: $font-family-sans-serif;
+  color: $primary;
+}
+
+.card-image {
+  transition: all .3s;
+  border-radius: $card-border-radius;
+}
+
+.card-image:hover {
+  transform: translate(-0.5rem, -0.5rem);
+  box-shadow: 0.5rem 0.5rem $primary;
+}
+

@@ -1,0 +1,23 @@
+{
+  "name": "yilizzz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.3",
+    "framer-motion": "^10.12.12",
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "sass": "^1.62.1"
+  }
+}

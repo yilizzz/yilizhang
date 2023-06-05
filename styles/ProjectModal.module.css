@@ -1,0 +1,12 @@
+.pdetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.pdetail > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
