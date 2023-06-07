@@ -1,7 +1,5 @@
 
 import profile from './profile.png';
-//import grimoire from './grimoire.webm';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -34,7 +32,7 @@ export const intro = {
 		},
 		{
 			title: "CV",
-			link: "",
+			link: "https://docs.google.com/document/d/11an38DDagzudnG2ITqAy4G8I1zQroDjPUAaslFb19vM/edit?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -43,7 +41,7 @@ export const intro = {
 export const about = {
 	title: "Qui suis-je",
 	description: [
-		"Je étais diplômé en informatique en Chine. J'étais programmeuse de Manufacturing Execution System en langage C++.","Ensuite, j'ai changé de métier plusieurs fois, 🖖🏻 juste pour trouver un fait : le développement est le plus intéressant.","Maintenant en France, j'ai repris des savoir-faire en développement web sur Freecodecamp, Coursera et Openclassrooms."
+		"Je suis diplômé en informatique en Chine. J'étais programmeuse de Manufacturing Execution System en langage C++.","Ensuite, j'ai changé de métier plusieurs fois, et finalement trouvé que mon premier travail était en fait le plus intéressant.","Maintenant, j'ai mis à niveau mes connaissances et compétences en HTML+CSS, JavaScript, Git/GitHub, React, Node.js, PHP et MySQL."
 	],
 }
 
@@ -71,7 +69,7 @@ export const projects = {
 			type:"React",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/kasa.gif",
 			title: "Kasa Immobilière ",
-			description: "Tâche de projet: configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React.",
+			description: "Un site React: configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React.",
 			demo:"https://yilizzz.github.io/kasa-location",
 			stack: [
 				"React", 
@@ -86,7 +84,7 @@ export const projects = {
 			type:"PHP",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/blog.webp",
 			title: "Gestion de Blogs",
-			description: "Gestion du blog, fournit les fonctions : connexion des utilisateurs, inscription, CRUD de catégorie et contenu de blog, lire et commenter.",
+			description: "La gestion du blog fournit les fonctions suivantes: connexion des utilisateurs, inscription, CRUD des catégories et contenus de blog, lecture et commentaires.",
 			demo:"https://portfolio-sophie.alwaysdata.net/blogzzz/",
 			stack: [
 				"PHP", 
@@ -102,7 +100,7 @@ export const projects = {
 			type:"JavaScript",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/sophie.gif",
 			title: "Portfolio Architecte Sophie Bluel",
-			description: "Créez une page web dynamique avec JavaScript: récupérer les données utilisateurs dans le JavaScript via des formulaires, manipuler les éléments du DOM avec JavaScript, gérer les événements utilisateurs avec JavaScript.",
+			description: "Une page web dynamique en JavaScript: récupérer les données utilisateurs dans le JavaScript via des formulaires, manipuler les éléments du DOM avec JavaScript, gérer les événements utilisateurs avec JavaScript.",
 			demo:"https://yilizzz.github.io/portfolio-sophie-frontend/",
 			stack: [
 				"JavaScript", 
@@ -117,7 +115,7 @@ export const projects = {
 			type:"SEO",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/seo.webp",
 			title: "SEO site de Nina Carducci",
-			description: "Optimisez un site de photographe: optimiser les performances d'un site web, débugger un site web grâce aux Chrome DevTools, rédiger un cahier de recette pour tester un site.",
+			description: "Optimisez un site d'une photographe: optimiser les performances d'un site web, débugger un site web grâce aux Chrome DevTools, rédiger un cahier de recette pour tester un site.",
 			demo:"https://yilizzz.github.io/nina-photographer-seo/",
 			stack: [
 				"SEO", 
@@ -131,7 +129,7 @@ export const projects = {
 			type:"HTML+CSS",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/booki.gif",
 			title: "Booki Voyage",
-			description: "Créez la page d'accueil d'une agence de voyage avec HTML & CSS: intégrer du contenu conformément à une maquette, implémenter une interface responsive.",
+			description: "Un page d'accueil d'une agence de voyage en HTML & CSS: intégrer du contenu conformément à une maquette, implémenter une interface responsive.",
 			demo:"https://yilizzz.github.io/Booki/",
 			stack: [
 				"HTML", 
@@ -146,7 +144,7 @@ export const projects = {
 
 export const contact = {
 	title: "Contactez moi",
-	description: " Mode service 7*24...c'est une blague, mais contactez-moi !",
+	description: "Je suis en mode service 7j/7 et 24h/24...c'est une blague, mais n'hésitez pas à me contacter!",
 	buttons: [
 		{
 			title: "Email",
@@ -169,7 +167,7 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Yili Zhang | developer",
-	description: "I create websites.",
+	title: "Yili Zhang | Full Stack Developer",
+	description: "Creating modern and responsive websites for businesses and individuals.",
 	image: profile.src,
 }
