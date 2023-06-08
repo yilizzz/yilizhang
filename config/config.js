@@ -53,7 +53,7 @@ export const projects = {
 			type:"Node.js",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/grimoire.gif",
 			title: "Mon Vieux Grimoire",
-			description: "Back-end d'un site de notation de livres: implémenter un modèle logique de données conformément à la réglementation, stocker des données de manière sécurisée, mettre en œuvre des opérations CRUD de manière sécurisée.",
+			description: "Back-end d'un site de notation de livres : implémenter un modèle logique de données conformément à la réglementation, stocker des données de manière sécurisée, mettre en œuvre des opérations CRUD de manière sécurisée.",
 			demo:"https://grimoire-book-site-f.vercel.app/",
 			stack: [
 				"Node.js", 
@@ -69,7 +69,7 @@ export const projects = {
 			type:"React",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/kasa.gif",
 			title: "Kasa Immobilière ",
-			description: "Un site React: configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React.",
+			description: "Un site React : configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React.",
 			demo:"https://yilizzz.github.io/kasa-location",
 			stack: [
 				"React", 
@@ -84,7 +84,7 @@ export const projects = {
 			type:"PHP",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/blog.webp",
 			title: "Gestion de Blogs",
-			description: "La gestion du blog fournit les fonctions suivantes: connexion des utilisateurs, inscription, CRUD des catégories et contenus de blog, lecture et commentaires.",
+			description: "La gestion du blog fournit les fonctions suivantes : connexion des utilisateurs, inscription, CRUD des catégories et contenus de blog, lecture et commentaires.",
 			demo:"https://portfolio-sophie.alwaysdata.net/blogzzz/",
 			stack: [
 				"PHP", 
@@ -100,7 +100,7 @@ export const projects = {
 			type:"JavaScript",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/sophie.gif",
 			title: "Portfolio Architecte Sophie Bluel",
-			description: "Une page web dynamique en JavaScript: récupérer les données utilisateurs dans le JavaScript via des formulaires, manipuler les éléments du DOM avec JavaScript, gérer les événements utilisateurs avec JavaScript.",
+			description: "Une page web dynamique en JavaScript : récupérer les données utilisateurs dans le JavaScript via des formulaires, manipuler les éléments du DOM avec JavaScript, gérer les événements utilisateurs avec JavaScript.",
 			demo:"https://yilizzz.github.io/portfolio-sophie-frontend/",
 			stack: [
 				"JavaScript", 
@@ -115,7 +115,7 @@ export const projects = {
 			type:"SEO",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/seo.webp",
 			title: "SEO site de Nina Carducci",
-			description: "Optimisez un site d'une photographe: optimiser les performances d'un site web, débugger un site web grâce aux Chrome DevTools, rédiger un cahier de recette pour tester un site.",
+			description: "Optimisez un site d'une photographe : optimiser les performances d'un site web, débugger un site web grâce aux Chrome DevTools, rédiger un cahier de recette pour tester un site.",
 			demo:"https://yilizzz.github.io/nina-photographer-seo/",
 			stack: [
 				"SEO", 
@@ -129,7 +129,7 @@ export const projects = {
 			type:"HTML+CSS",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/booki.gif",
 			title: "Booki Voyage",
-			description: "Un page d'accueil d'une agence de voyage en HTML & CSS: intégrer du contenu conformément à une maquette, implémenter une interface responsive.",
+			description: "Un page d'accueil d'une agence de voyage en HTML & CSS : intégrer du contenu conformément à une maquette, implémenter une interface responsive.",
 			demo:"https://yilizzz.github.io/Booki/",
 			stack: [
 				"HTML", 
@@ -144,7 +144,7 @@ export const projects = {
 
 export const contact = {
 	title: "Contactez moi",
-	description: "Je suis en mode service 7j/7 et 24h/24...c'est une blague, mais n'hésitez pas à me contacter!",
+	description: "N'hésitez pas à me contacter!",
 	buttons: [
 		{
 			title: "Email",
