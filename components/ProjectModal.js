@@ -17,7 +17,7 @@ function ProjectModal({ title }) {
       
       <div className="d-flex justify-content-center" style={{ padding: '20px', backgroundColor:'#F7F7F7' }}>
         <Button href={address} variant="primary" target="_blank">
-            Cliquez sur moi pour voir la démo
+         🌐Cliquez pour voir la démo
         </Button>
       </div>
 
