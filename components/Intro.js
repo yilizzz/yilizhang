@@ -83,8 +83,9 @@ export const Card = ({ title, description }) => {
                 <li key={index}>
 					 {value.link ? (
                     <Link key={index} href={value.link} target="_blank">
-                        <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
                         {value.item}
+					
+						<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
                     </Link>
                 ) : (
                     <>

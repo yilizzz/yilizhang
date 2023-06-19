@@ -1,25 +1,30 @@
 
 import profile from './profile.png';
-import { faLanguage, faStamp } from '@fortawesome/free-solid-svg-icons';
+import { faLanguage, faInfinity, faCode} from '@fortawesome/free-solid-svg-icons';
+import {faPhp, faJs, faReact, faNodeJs} from "@fortawesome/free-brands-svg-icons";
 
 export const navigation = {
 	name: "Yili Zhang",
 	links: [
 		{
 			title: "Presentation",
-			link: "http://localhost:3000/#presentation",
+			// link: "http://localhost:3000/#presentation",
+			link: "https://yilizhang.vercel.app/#presentation"
 		},
 		{
 			title: "Projets",
-			link: "http://localhost:3000/#projects",
+			// link: "http://localhost:3000/#projects",
+			link: "https://yilizhang.vercel.app/#projects"
 		},
 		{
 			title: "A propos",
-			link: "http://localhost:3000/#about",
+			// link: "http://localhost:3000/#about",
+			link: "https://yilizhang.vercel.app/#about"
 		},
 		{
 			title: "Contact",
-			link: "http://localhost:3000/#contact",
+			// link: "http://localhost:3000/#contact",
+			link: "https://yilizhang.vercel.app/#contact"
 		}
 
 	],
@@ -72,18 +77,18 @@ export const about = {
 			title: "Certificats",
 			description: [
 				{
-					item:"Openclassrooms : Développeur Web",
-					icon: faStamp,
+					item:"Développeur Web",
+					icon: faCode, 
 					link:"https://www.docdroid.net/87wJxDS/proof-of-completion-pdf"
 				},
 				{
-					item:"Coursera : Building Database Applications in PHP",
-					icon: faStamp,
+					item:"Building Applications in PHP",
+					icon: faPhp,
 					link: "https://www.coursera.org/account/accomplishments/certificate/EVP5HDSN9TKZ",
 				},
 				{
-					item:"Coursera : JavaScript, jQuery, and JSON",
-					icon: faStamp,
+					item:"JavaScript, jQuery, and JSON",
+					icon: faJs,
 					link: "https://www.coursera.org/account/accomplishments/certificate/JJPTBM8S8LJF",
 				},
 				// {
@@ -92,8 +97,8 @@ export const about = {
 				// 	link:"https://www.freecodecamp.org/certification/fcc2df687aa-93b1-4a59-a754-5fe38aa4b645/responsive-web-design"
 				// },
 				{
-					item:"Coursera : Linear Algebra for Machine Learning and Data Science",
-					icon: faStamp,
+					item:"Linear Algebra for Machine Learning",
+					icon: faInfinity,
 					link:"https://www.coursera.org/account/accomplishments/certificate/62K75UGCM2KC"
 				}
 			]
