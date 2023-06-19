@@ -9,6 +9,7 @@
 $primary: #2f465b;
 $secondary: #F7F7F7;
 $light: #FFFFFF;
+$red:#a6522c;
 @import "~bootstrap/scss/functions";
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
@@ -55,3 +56,17 @@ a {
   box-shadow: 0.5rem 0.5rem $primary;
 }
 
+.custom-button {
+  border: 1px solid $secondary;
+  margin: 0 1rem 1rem 0;
+}
+
+ul.text-dark{
+  list-style: none;
+ padding-left: 0.5rem;
+  cursor: pointer;
+}
+ul.text-dark li:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}

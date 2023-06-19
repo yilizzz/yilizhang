@@ -1,16 +1,35 @@
 import React from "react";
+import { useState } from 'react';
 import Image from 'next/image';
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ProjectModal from "./ProjectModal";
 
 export const Projects = ({ title, cards }) => {
+  const categories = ['Tous', ...new Set(cards.map(project => project.category))];
+  const [selectedCategory, setSelectedCategory] = useState('Tous');
+
+  const filteredProjects = selectedCategory === 'Tous'
+    ? cards
+    : cards.filter(project => project.category === selectedCategory);
   return (
     <div id='projects' className="bg-primary py-5 px-5">
       <div className="container">
-        <h1 className="text-light fw-bold">{title}</h1>
+          <h1 className="text-light fw-bold">{title}</h1>
+          <div className={'d-flex flex-row flex-wrap justify-content-center'}>
+            {categories.map(category => (
+            <Button variant="primary" 
+                    key={category} 
+                    className="custom-button"
+                    onClick={() => setSelectedCategory(category)}>
+              {category}
+            </Button>
+           ))}
+          </div>  
+        
+  
         <div className={'d-flex flex-row flex-wrap justify-content-center'}>
-          {cards.map((value, index) => (
+          {filteredProjects.map((value, index) => (
             <Card key={index} title={value.title} image={value.image} type={value.type}/>
           ))}
         </div>

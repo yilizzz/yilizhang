@@ -25,7 +25,7 @@ function ProjectModal({ title }) {
 
       <div className={styles.pdetail}>
         <Detail project={card} detail="description"></Detail>
-        <Detail project={card} detail="stack"></Detail>
+        <Detail project={card} detail="techniques"></Detail>
       </div>
       <Footer />
     </div>
