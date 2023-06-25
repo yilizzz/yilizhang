@@ -1,15 +1,19 @@
 import React from "react";
 import Link from "next/link";
-import Image from 'next/image'
+import Image from 'next/image';
+import ContactForm from './ContactForm';
+import { faPaperPlane} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Contact = ({ title, description, buttons }) => {
   return (
     <div id="contact" className="bg-white py-5 px-5">
-      <div className="container">
-        <h1 className="text-primary fw-bold">{title}</h1>
-        <div className="px-sm-5">
+      <div className="contact-form">
+        
+        <div className="px-sm-5 mb-5">
+          <h1 className="text-primary fw-bold">{title}</h1>
           <p>{description}</p>
-          <div className="">
+          <div>
             {buttons.map((value, index) =>
               value.isPrimary ? (
                 <Link
@@ -33,6 +37,13 @@ export const Contact = ({ title, description, buttons }) => {
             )}
           </div>
         </div>
+
+        <FontAwesomeIcon className="icon-style fa-5x fa-spin mb-5" icon={faPaperPlane} />
+        
+        
+        {/* <FontAwesomeIcon icon="fa-regular fa-paper-plane  " /> */}
+        <ContactForm></ContactForm>
+
       </div>
     </div>
   );

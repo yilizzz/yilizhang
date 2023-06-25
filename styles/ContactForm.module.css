@@ -1,0 +1,4 @@
+.messageform{
+    display: flex;
+    flex-direction: column;
+}

@@ -41,7 +41,7 @@ export const intro = {
 		},
 		{
 			title: "CV",
-			link: "https://www.docdroid.net/N71R39S/yili-zhang-cv-pdf",
+			link: "https://www.docdroid.net/DaONmLl/cv-zhang-yili-pdf",
 			isPrimary: false,
 		},
 	],
@@ -234,7 +234,7 @@ export const contact = {
 			isPrimary: true,
 		},
 		{
-			title: "Linkin",
+			title: "LinkedIn",
 			link: "https://www.linkedin.com/in/yili-zhang-902bb0134/",
 			isPrimary: false,
 		},
