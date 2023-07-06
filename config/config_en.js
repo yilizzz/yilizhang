@@ -3,21 +3,21 @@ import profile from './profile.png';
 import { faLanguage, faInfinity, faCode, faServer, faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 import {faPhp, faJs} from "@fortawesome/free-brands-svg-icons";
 
-export const navigation = {
+export const navigation_en = {
 	name: "Yili Zhang",
 	links: [
 		{
-			title: "Présentation",
+			title: "Presentation",
 			// link: "http://localhost:3000/#presentation",
 			link: "https://yilizhang.vercel.app/#presentation"
 		},
 		{
-			title: "Projets",
+			title: "Projects",
 			// link: "http://localhost:3000/#projects",
 			link: "https://yilizhang.vercel.app/#projects"
 		},
 		{
-			title: "A propos",
+			title: "About",
 			// link: "http://localhost:3000/#about",
 			link: "https://yilizhang.vercel.app/#about"
 		},
@@ -29,62 +29,64 @@ export const navigation = {
 
 	],
 }
-export const intro = {
-	title: "Bonjour, c'est Yili",
-	description: "Une Développeuse Web Full Stack",
+export const intro_en = {
+	title: "Hello, I'm Yili",
+	description: "A full stack developer",
 	
 	buttons: [
 		{
-			title: "Contactez moi",
+			title: "Contact me",
 			link: "#contact",
 			isPrimary: true,
 		},
 		{
 			title: "CV",
-			link: "https://docdro.id/L96LrUF",
+			link: "https://docdro.id/TUyM7Wr",
 			isPrimary: false,
 		},
 	],
 }
 
-export const presentation = {
-	title: "Qui suis-je",
+export const presentation_en = {
+	title: "Who am I",
 	description: [
-		"Je suis diplômé en informatique en Chine. J'étais programmeuse de Manufacturing Execution System en langage C++.","Ensuite, j'ai changé de métier plusieurs fois, et finalement trouvé que mon premier travail était en fait le plus intéressant.","Maintenant, j'ai mis à niveau mes connaissances et compétences en HTML+CSS, JavaScript, Git/GitHub, React, Node.js, PHP et MySQL."
+		"I got my diploma in computer applied technology in China, then I became a programmer of Manufacturing Execution System, using C++.",
+        "I've tried several different careers and eventually found my first job to be the most interesting.",
+        "Now I upgraded my knowledge and skills in HTML+CSS, JavaScript, Git/GitHub, React, Node.js, PHP and MySQL."
 	],
 }
 
-export const about = {
-	title: "A propos",
+export const about_en = {
+	title: "About",
 	cards: [
 		{
-			title: "Ce que je fais",
+			title: "What I do",
 			description: [
 				{
-					item:"Développement Web - Frontend",
+					item:"Front-end development",
 					icon: faLaptopCode
 				}, 
 				{
-					item:"Développement Web - Backend",
+					item:"Back-end development",
 					icon: faServer
 				}
 			]
 			
 		},
 		{
-			title: "Langues",
+			title: "Language",
 			description: [
 				{
-					item:"Anglais BULATS C1",
+					item:"English BULATS C1",
 					icon: faLanguage,
 					link: "https://www.docdroid.net/eJBLVi7/bulats-pdf"
 				}, 
 				{
-					item:"Chinois langue maternelle",
+					item:"Chinese native language",
 					icon: faLanguage
 				},
 				{
-					item:"Français DELF B2",
+					item:"French DELF B2",
 					icon: faLanguage,
 					link: "https://www.docdroid.net/170zuKM/delfb2-rotated-pdf"
 				}
@@ -92,10 +94,10 @@ export const about = {
 			
 		},
 		{
-			title: "Certificats",
+			title: "Certificate",
 			description: [
 				{
-					item:"Développeur Web",
+					item:"Developper Web",
 					icon: faCode, 
 					link:"https://www.docdroid.net/87wJxDS/proof-of-completion-pdf"
 				},
@@ -124,15 +126,15 @@ export const about = {
 	],
 }
 
-export const projects = {
-	title: "Projets",
+export const projects_en = {
+	title: "Projects",
 	cards: [
 		{
 			type:"Node.js",
 			category:"Backend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/grimoire.gif",
-			title: "Mon Vieux Grimoire",
-			description: "Back-end d'un site de notation de livres : implémenter un modèle logique de données conformément à la réglementation, stocker des données de manière sécurisée, mettre en œuvre des opérations CRUD de manière sécurisée.",
+			title: "My Old Grimoire",
+			description: "Back-end of a book rating site: implement a logical data model according to regulations, store data in a secure way, implement CRUD operations in a secure way.",
 			demo:"https://grimoire-book-site-f.vercel.app/",
 			techniques: [
 				"Node.js", 
@@ -153,8 +155,8 @@ export const projects = {
 			type:"React",
 			category:"Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/kasa.gif",
-			title: "Kasa Immobilière ",
-			description: "Un site React : configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React.",
+			title: "Kasa real estate agency",
+			description: "A React site: configure navigation between the pages with React Router, initialize an application with Create React App, develop the interface using React components.",
 			demo:"https://yilizzz.github.io/kasa-location",
 			techniques: [
 				"React", 
@@ -171,8 +173,8 @@ export const projects = {
 			type:"PHP",
 			category:"Backend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/blog.webp",
-			title: "Gestion de Blogs",
-			description: "La gestion du blog fournit les fonctions suivantes : connexion des utilisateurs, inscription, CRUD des catégories et contenus de blog, lecture et commentaires.",
+			title: "Blog LabZZZ",
+			description: "A blog management provides the following functions: user login, registration, CRUD of blog categories and content, reading and comments.",
 			demo:"https://portfolio-sophie.alwaysdata.net/blogzzz/",
 			techniques: [
 				"PHP", 
@@ -190,8 +192,8 @@ export const projects = {
 			type:"JavaScript",
 			category:"Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/sophie.gif",
-			title: "Portfolio Architecte Sophie Bluel",
-			description: "Une page web dynamique en JavaScript : récupérer les données utilisateurs dans le JavaScript via des formulaires, manipuler les éléments du DOM avec JavaScript, gérer les événements utilisateurs avec JavaScript.",
+			title: "Portfolio Architect Sophie Bluel",
+			description: "A dynamic web page in JavaScript: retrieve user data in JavaScript via forms, manipulate DOM elements with JavaScript, handle user events with JavaScript.",
 			demo:"https://yilizzz.github.io/portfolio-sophie-frontend/",
 			techniques: [
 				"JavaScript", 
@@ -208,8 +210,8 @@ export const projects = {
 			type:"SEO",
 			category:"SEO",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/seo.webp",
-			title: "SEO site de Nina Carducci",
-			description: "Optimisez un site d'une photographe : optimiser les performances d'un site web, débugger un site web grâce aux Chrome DevTools, rédiger un cahier de recette pour tester un site.",
+			title: "SEO site of Nina Carducci",
+			description: "Optimize a photographer's site: optimize the performance, debug the code using Chrome DevTools.",
 			demo:"https://yilizzz.github.io/nina-photographer-seo/",
 			techniques: [
 				"SEO", 
@@ -227,7 +229,7 @@ export const projects = {
 			category:"Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/booki.gif",
 			title: "Booki Voyage",
-			description: "Un page d'accueil d'une agence de voyage en HTML & CSS : intégrer du contenu conformément à une maquette, implémenter une interface responsive.",
+			description: "A homepage of a travel agency in HTML & CSS: integrate content according to a model, implement a responsive interface.",
 			demo:"https://yilizzz.github.io/Booki/",
 			techniques: [
 				"HTML", 
@@ -242,9 +244,9 @@ export const projects = {
 	],
 }
 
-export const contact = {
-	title: "Contactez moi",
-	description: "N'hésitez pas à me contacter!",
+export const contact_en = {
+	title: "Contact me",
+	description: "Feel free to reach me!",
 	buttons: [
 		{
 			title: "Email",
@@ -265,7 +267,7 @@ export const contact = {
 }
 
 // SEARCH ENGINE 
-export const SEO = {
+export const SEO_en = {
 	// 50 - 60 char  
 	title: "Yili Zhang | Full Stack Developer",
 	description: "Creating modern and responsive websites for businesses and individuals.",

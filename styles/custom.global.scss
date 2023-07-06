@@ -62,9 +62,12 @@ a {
   margin: 0 1rem 1rem 0;
 }
 
-ul.text-dark{
+ul.text-dark {
   list-style: none;
- padding-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+ul.text-dark a {
   cursor: pointer;
 }
 ul.text-dark li:hover {
@@ -93,17 +96,42 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   }
 }
 
-@keyframes fly {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(500px);
-  }
-}
-
 .icon-style {
-  // animation: fly 5s linear infinite;
   color:$brown;
   --fa-animation-duration: 8s;
+}
+.pageCenter{
+  background-color: $primary;
+}
+.pageFoot{
+  
+    --s: 50px; /* control the size */
+    // --c1: #F8B195;
+    // --c2: #355C7D;
+    --c1: #e2af91;
+    --c2: #2f465b;
+    
+    --_g: 
+       var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+       var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+    background:
+      radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+      radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+      var(--c1);
+    background-size: var(--s) var(--s);
+    height:25vh;
+}
+.form-select{
+  width: 7rem;
+  background-color: #f7f7f7;
+}
+header{
+  background-color: #f7f7f7;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 576px) {
+  .form-select {
+    margin-top: 4rem !important;
+  }
 }

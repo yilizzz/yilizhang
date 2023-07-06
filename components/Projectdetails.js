@@ -33,7 +33,7 @@ function Projectdetails({ project, detail }) {
                         onClick={() => setIsOpen(false)}
                     >
                         {/* <span>{detail[0].toUpperCase() + detail.slice(1)}</span> */}
-                        <span>{detail==="techniques" ? "Techniques et outils" : detail[0].toUpperCase() + detail.slice(1)}</span>
+                        <span>{detail[0].toUpperCase() + detail.slice(1)}</span>
                         <span>
                             <FontAwesomeIcon icon={faChevronUp} />
                         </span>
@@ -49,7 +49,7 @@ function Projectdetails({ project, detail }) {
                         className={styles.togglebutton}
                         onClick={() => setIsOpen(true)}
                     >
-                        <span>{detail==="techniques" ? "Techniques et outils" : detail[0].toUpperCase() + detail.slice(1)}</span>
+                        <span>{detail[0].toUpperCase() + detail.slice(1)}</span>
                         <span>
                             <FontAwesomeIcon icon={faChevronDown} />
                         </span>

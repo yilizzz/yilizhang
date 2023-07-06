@@ -4,10 +4,22 @@ import Modal from "react-bootstrap/Modal";
 import Detail from "./Projectdetails";
 import MyCarousel from "./MyCarousel";
 import { projects } from "../config/config";
+import { projects_en } from "../config/config_en";
 import { Footer } from "./Footer";
+import { useContext } from 'react';
+import { LanguageContext } from './LanguageContext';
 function ProjectModal({ title }) {
-  const card = projects.cards.find((card) => card.title === title);
+  const { language } = useContext(LanguageContext);
+  const card =
+    language === 'fr' ?
+    projects.cards.find((card) => card.title === title) :
+    projects_en.cards.find((card) => card.title === title);
+
   const address = card["demo"];
+  const linkButton = 
+    language === 'fr' ?
+    "Cliquez pour voir la démo":
+    "Site URL / Demo";
 
   return (
     <div>
@@ -17,7 +29,7 @@ function ProjectModal({ title }) {
       
       <div className="d-flex justify-content-center" style={{ padding: '20px', backgroundColor:'#F7F7F7' }}>
         <Button href={address} variant="primary" target="_blank">
-         🌐Cliquez pour voir la démo
+         🌐{linkButton}
         </Button>
       </div>
 

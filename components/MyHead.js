@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export const Header = ({ seo }) => {
+export const MyHead = ({ seo }) => {
   return (
     <Head>
       <title>{seo.title}</title>

@@ -4,14 +4,24 @@ import Image from 'next/image';
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ProjectModal from "./ProjectModal";
+import { useContext } from 'react';
+import { LanguageContext } from './LanguageContext';
 
 export const Projects = ({ title, cards }) => {
-  const categories = ['Tous', ...new Set(cards.map(project => project.category))];
-  const [selectedCategory, setSelectedCategory] = useState('Tous');
-
-  const filteredProjects = selectedCategory === 'Tous'
-    ? cards
-    : cards.filter(project => project.category === selectedCategory);
+  const { language } = useContext(LanguageContext);
+  const allCategory = language === 'en' ? 'All' : 'Tous';
+  const [selectedCategory, setSelectedCategory] = useState("Tous");
+  const categories = [allCategory, ...new Set(cards.map(project => project.category))];
+  
+  let filteredProjects = [];
+  if(selectedCategory === "Tous" || selectedCategory === "All"){
+    filteredProjects = cards;
+  }else{
+    filteredProjects = cards.filter(project => project.category === selectedCategory);
+  }
+  // const filteredProjects = selectedCategory === allCategory
+  //   ? cards
+  //   : cards.filter(project => project.category === selectedCategory);
   return (
     <div id='projects' className="bg-primary py-5 px-5">
       <div className="container">
@@ -58,10 +68,10 @@ export const Card = ({ image, title, type }) => {
         alt={title}
       />
       <div className="d-flex flex-row justify-content-between">
-        <div className="fw-bold">Projet {type}</div>
+        <div className="fw-bold">{type}</div>
         <div className="text-center">
             <Button variant="primary" onClick={handleShow} size="sm">
-            Plus Details
+            🗂️Details
             </Button>
             <Modal 
             size="lg"

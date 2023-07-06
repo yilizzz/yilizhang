@@ -4,8 +4,6 @@ import Link from 'next/link';
 import Stamp from './Stamp';
 import Introtext from './Introtext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import Card from './Projects';
-
 
 const { publicRuntimeConfig } = getConfig();
 
@@ -84,13 +82,13 @@ export const Card = ({ title, description }) => {
 					 {value.link ? (
                     <Link key={index} href={value.link} target="_blank">
                         {value.item}
-					
 						<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
                     </Link>
                 ) : (
                     <>
+						{value.item}
                         <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
-                        {value.item}
+                        
                     </>
                 )}
 				</li>

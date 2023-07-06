@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link'
+import LangOption from './LangOption';
 
 export const Nav = ({ title, links }) => {
 
@@ -11,11 +12,9 @@ export const Nav = ({ title, links }) => {
     <nav className="navbar navbar-expand-sm navbar-light bg-secondary">
       <div className="container">
         <Link href="/" className="navbar-brand">
-          {/* <Image src={Logo} alt="Logo" width="36" height="36" className="vertical-align-middle" /> */}
-          
-          <span className="">{title}</span>
-          
+          <span className="">{title}</span> 
         </Link>
+        
         <button
           className="custom-toggler navbar-toggler"
           type="button" data-toggle="collapse"
@@ -41,6 +40,7 @@ export const Nav = ({ title, links }) => {
           </div>
         </div>
       </div>
+      
     </nav>
   );
 }

@@ -1,7 +1,22 @@
 import React from 'react';
+import { useContext } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import { LanguageContext } from './LanguageContext';
 import styles from '../styles/ContactForm.module.css';
+
 function ContactForm() {
+  const { language } = useContext(LanguageContext);
+  const content =
+    language === 'en' ?
+    {
+      formTitle:"Leave a message",
+      formButton:"Send"
+    }
+    :
+    {
+      formTitle:"Laissez un message",
+      formButton:"Envoyer"
+    }
   const [state, handleSubmit] = useForm("xayzrklj");
   if (state.succeeded) {
       return <p>Merci pour votre message!</p>;
@@ -9,11 +24,11 @@ function ContactForm() {
   return (
   <div className='px-sm-5'>
     <h1 className="text-primary fw-bold">
-      Laissez un message
+      {content.formTitle}
     </h1>
     <form onSubmit={handleSubmit} className={styles.messageform}>
       <label htmlFor="email">
-        Votre Email : 
+        Email : 
       </label>
       <input className='form-control'
         id="email"
@@ -27,7 +42,7 @@ function ContactForm() {
       />
       <br />
       <label htmlFor="message">
-        Votre message : 
+        Message : 
       </label>
       <textarea  className='form-control'
         id="message"
@@ -40,7 +55,7 @@ function ContactForm() {
       />
       <br />
       <button type="submit" disabled={state.submitting} className='btn btn-primary'>
-        Envoyer
+        {content.formButton}
       </button>
     </form>
     </div>
