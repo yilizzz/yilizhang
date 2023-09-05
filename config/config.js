@@ -132,7 +132,7 @@ export const projects = {
 			category:"Fullstack",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/jobs.webp",
 			title: "Sniff Jobs",
-			description: "Une application pour suivre les offres d'emploi : fonctioné de CRUD des enregistrements de postes postulé, qui peuvent distinguer les enregistrements dans différents états.",
+			description: "Une application pour suivre les offres d'emploi : il est plus beau qu'un tableau de suivi de recherches en Excel, et possède la fonction CRUD.",
 			demo:"https://jobs-f.vercel.app/",
 			techniques: [
 				"Node.js", 
