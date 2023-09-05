@@ -142,9 +142,7 @@ export const projects_en = {
 				"MongoDB",
 				"Vue3",
 				"Naive UI",
-				"Pinia",
-				"@aws-sdk/client-s3"
-				
+				"Pinia"	
 			],
 			pictures: [
 				"https://projects-image.s3.eu-west-3.amazonaws.com/grimoire1.webp",
