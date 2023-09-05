@@ -52,7 +52,7 @@ export const presentation_en = {
 	description: [
 		"I got my diploma in computer applied technology in China, then I became a programmer of Manufacturing Execution System, using C++.",
         "I've tried several different careers and eventually found my first job to be the most interesting.",
-        "Now I upgraded my knowledge and skills in HTML+CSS, JavaScript, Git/GitHub, React, Node.js, PHP and MySQL."
+        "Now I upgraded my knowledge and skills in Vue, React, Node.js, PHP, MySQL, JavaScript, Git/GitHub, HTML+CSS."
 	],
 }
 

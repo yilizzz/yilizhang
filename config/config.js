@@ -50,7 +50,7 @@ export const intro = {
 export const presentation = {
 	title: "Qui suis-je",
 	description: [
-		"Je suis diplômé en informatique en Chine. J'étais programmeuse de Manufacturing Execution System en langage C++.","Ensuite, j'ai changé de métier plusieurs fois, et finalement trouvé que mon premier travail était en fait le plus intéressant.","Maintenant, j'ai mis à niveau mes connaissances et compétences en HTML+CSS, JavaScript, Git/GitHub, React, Node.js, PHP et MySQL."
+		"Je suis diplômé en informatique en Chine. J'étais programmeuse de Manufacturing Execution System en langage C++.","Ensuite, j'ai changé de métier plusieurs fois, et finalement trouvé que mon premier travail était en fait le plus intéressant.","Maintenant, j'ai mis à niveau mes connaissances et compétences en Vue, React, Node.js, PHP, MySQL, JavaScript, Git/GitHub, HTML+CSS."
 	],
 }
 
