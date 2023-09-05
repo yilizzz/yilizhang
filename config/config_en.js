@@ -41,7 +41,7 @@ export const intro_en = {
 		},
 		{
 			title: "CV",
-			link: "https://docdro.id/eQ14GqX",
+			link: "https://docdro.id/tZvmaVW",
 			isPrimary: false,
 		},
 	],
