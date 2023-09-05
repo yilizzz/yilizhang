@@ -130,6 +130,28 @@ export const projects_en = {
 	title: "Projects",
 	cards: [
 		{
+			type:"Node.js + Vue3",
+			category:"Fullstack",
+			image: "https://projects-image.s3.eu-west-3.amazonaws.com/grimoire.gif",
+			title: "Sniff Jobs",
+			description: "An application for tracking posting jobs: CRUD function of resume posting records, it also distinguishes postings in various states.",
+			demo:"https://jobs-f.vercel.app/",
+			techniques: [
+				"Node.js", 
+				"Express",
+				"MongoDB",
+				"Vue3",
+				"Naive UI",
+				"Pinia",
+				"@aws-sdk/client-s3"
+				
+			],
+			pictures: [
+				"https://projects-image.s3.eu-west-3.amazonaws.com/grimoire1.webp",
+				"https://projects-image.s3.eu-west-3.amazonaws.com/grimoire2.webp",
+			],
+		},
+		{
 			type:"Node.js",
 			category:"Backend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/grimoire.gif",
