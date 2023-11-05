@@ -128,6 +128,26 @@ export const projects = {
 	title: "Projets",
 	cards: [
 		{
+			type:"Next.js",
+			category:"Frontend",
+			image: "https://projects-image.s3.eu-west-3.amazonaws.com/rooom.webp",
+			title: "My Rooom",
+			description: "Site de location, fonctionnalités: consulter les informations de location sur Google Maps, publier et marquer des annonces.",
+			demo:"https://rooom-f.vercel.app/",
+			techniques: [
+				"Next.js", 
+				"React-google-maps/api",
+				"axios",
+				"Primereact",
+				"Primeflex",
+			],
+			pictures: [
+				"https://projects-image.s3.eu-west-3.amazonaws.com/rooom3.webp",
+				"https://projects-image.s3.eu-west-3.amazonaws.com/rooom1.webp",
+				"https://projects-image.s3.eu-west-3.amazonaws.com/rooom2.webp",
+			],
+		},
+		{
 			type:"Node.js + Vue3",
 			category:"Fullstack",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/jobs.webp",
