@@ -61,11 +61,13 @@ export const Card = ({ image, title, type }) => {
     >
       <Image
         className="img-fluid my-3 card-image"
+        role="button"
         width="400"
         height="250"
         object-fit='cover'
         src={image}
         alt={title}
+        onClick={handleShow}
       />
       <div className="d-flex flex-row justify-content-between">
         <div className="fw-bold">{type}</div>

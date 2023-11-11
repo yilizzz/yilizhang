@@ -88,6 +88,18 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   flex-direction: row;
   justify-content: space-around;
 }
+.iconSpan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #2f465b;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
 
 @media (max-width: 800px) {
   .contact-form{
@@ -106,8 +118,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
 .pageFoot{
   
     --s: 50px; /* control the size */
-    // --c1: #F8B195;
-    // --c2: #355C7D;
     --c1: #e2af91;
     --c2: #2f465b;
     
