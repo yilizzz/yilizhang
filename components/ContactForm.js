@@ -19,7 +19,7 @@ function ContactForm() {
     }
   const [state, handleSubmit] = useForm("xayzrklj");
   if (state.succeeded) {
-      return <p>Merci pour votre message!</p>;
+      return language === 'en' ?<p>Merci pour votre message!</p>:<p>Thanks for your message!</p>;
   }
   return (
   <div className='px-sm-5'>
