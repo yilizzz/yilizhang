@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
-import { faLanguage, faInfinity, faCode, faServer, faLaptopCode} from '@fortawesome/free-solid-svg-icons';
-import {faPhp, faJs} from "@fortawesome/free-brands-svg-icons";
+import { faLanguage, faInfinity, faCode, faServer, faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faPhp, faJs } from "@fortawesome/free-brands-svg-icons";
 
 export const navigation = {
 	name: "Yili Zhang",
@@ -32,7 +32,7 @@ export const navigation = {
 export const intro = {
 	title: "Bonjour, c'est Yili",
 	description: "Une Développeuse Web Full Stack",
-	
+
 	buttons: [
 		{
 			title: "Contactez moi",
@@ -50,7 +50,9 @@ export const intro = {
 export const presentation = {
 	title: "Qui suis-je",
 	description: [
-		"Je suis diplômé en informatique en Chine. J'étais programmeuse de Manufacturing Execution System en langage C++.","Ensuite, j'ai changé de métier plusieurs fois, et finalement trouvé que mon premier travail était en fait le plus intéressant.","Maintenant, j'ai mis à niveau mes connaissances et compétences en Vue, React, Node.js, PHP, MySQL, JavaScript, Git/GitHub, HTML+CSS."
+		"Diplômée en informatique j'étais programmeuse C++. Plus que tout, je suis passionnée de développement web. De ce fait, j'ai donc aussi validé un RNCP 5 dans ce domaine.",
+		"J'ai travaillé en Chine et en France, forte adaptabilité et j'ai toujours travaillé en équipe.",
+		"Aujourd'hui je poursuis mon cursus avec un cursus RNCP 6 en tant que Développeur d'application. "
 	],
 }
 
@@ -61,51 +63,51 @@ export const about = {
 			title: "Ce que je fais",
 			description: [
 				{
-					item:"Développement Web - Frontend",
+					item: "Développement Web - Frontend",
 					icon: faLaptopCode
-				}, 
+				},
 				{
-					item:"Développement Web - Backend",
+					item: "Développement Web - Backend",
 					icon: faServer
 				}
 			]
-			
+
 		},
 		{
 			title: "Langues",
 			description: [
 				{
-					item:"Anglais BULATS C1",
+					item: "Anglais BULATS C1",
 					icon: faLanguage,
 					link: "https://www.docdroid.net/eJBLVi7/bulats-pdf"
-				}, 
+				},
 				{
-					item:"Chinois langue maternelle",
+					item: "Chinois langue maternelle",
 					icon: faLanguage
 				},
 				{
-					item:"Français DELF B2",
+					item: "Français DELF B2",
 					icon: faLanguage,
 					link: "https://www.docdroid.net/170zuKM/delfb2-rotated-pdf"
 				}
 			]
-			
+
 		},
 		{
 			title: "Certificats",
 			description: [
 				{
-					item:"Développeur Web",
-					icon: faCode, 
-					link:"https://www.docdroid.net/87wJxDS/proof-of-completion-pdf"
+					item: "Développeur Web",
+					icon: faCode,
+					link: "https://www.docdroid.net/87wJxDS/proof-of-completion-pdf"
 				},
 				{
-					item:"Building Applications in PHP",
+					item: "Building Applications in PHP",
 					icon: faPhp,
 					link: "https://www.coursera.org/account/accomplishments/certificate/EVP5HDSN9TKZ",
 				},
 				{
-					item:"JavaScript, jQuery, and JSON",
+					item: "JavaScript, jQuery, and JSON",
 					icon: faJs,
 					link: "https://www.coursera.org/account/accomplishments/certificate/JJPTBM8S8LJF",
 				},
@@ -115,9 +117,9 @@ export const about = {
 				// 	link:"https://www.freecodecamp.org/certification/fcc2df687aa-93b1-4a59-a754-5fe38aa4b645/responsive-web-design"
 				// },
 				{
-					item:"Linear Algebra for Machine Learning",
+					item: "Linear Algebra for Machine Learning",
 					icon: faInfinity,
-					link:"https://www.coursera.org/account/accomplishments/certificate/62K75UGCM2KC"
+					link: "https://www.coursera.org/account/accomplishments/certificate/62K75UGCM2KC"
 				}
 			]
 		}
@@ -128,14 +130,14 @@ export const projects = {
 	title: "Projets",
 	cards: [
 		{
-			type:"Next.js",
-			category:"Frontend",
+			type: "Next.js",
+			category: "Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/rooom.webp",
 			title: "My Rooom",
 			description: "Site de location, fonctionnalités: consulter les informations de location sur Google Maps, publier et marquer des annonces.",
-			demo:"https://rooom-f.vercel.app/",
+			demo: "https://rooom-f.vercel.app/",
 			techniques: [
-				"Next.js", 
+				"Next.js",
 				"React-google-maps/api",
 				"axios",
 				"Primereact",
@@ -148,19 +150,19 @@ export const projects = {
 			],
 		},
 		{
-			type:"Node.js + Vue3",
-			category:"Fullstack",
+			type: "Node.js + Vue3",
+			category: "Fullstack",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/jobs.webp",
 			title: "Sniff Jobs",
 			description: "Une application pour suivre les offres d'emploi : il est plus beau qu'un tableau de suivi de recherches en Excel, et possède la fonction CRUD.",
-			demo:"https://jobs-f.vercel.app/",
+			demo: "https://jobs-f.vercel.app/",
 			techniques: [
-				"Node.js", 
+				"Node.js",
 				"Express",
 				"MongoDB",
 				"Vue3",
 				"Naive UI",
-				"Pinia"	
+				"Pinia"
 			],
 			pictures: [
 				"https://projects-image.s3.eu-west-3.amazonaws.com/jobs1.webp",
@@ -168,21 +170,21 @@ export const projects = {
 			],
 		},
 		{
-			type:"Node.js",
-			category:"Backend",
+			type: "Node.js",
+			category: "Backend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/grimoire.gif",
 			title: "Mon Vieux Grimoire",
 			description: "Back-end d'un site de notation de livres : implémenter un modèle logique de données conformément à la réglementation, stocker des données de manière sécurisée, mettre en œuvre des opérations CRUD de manière sécurisée.",
-			demo:"https://grimoire-book-site-f.vercel.app/",
+			demo: "https://grimoire-book-site-f.vercel.app/",
 			techniques: [
-				"Node.js", 
+				"Node.js",
 				"Express",
 				"MongoDB",
 				"jsonwebtoken",
 				"multer",
 				"sharp",
 				"@aws-sdk/client-s3"
-				
+
 			],
 			pictures: [
 				"https://projects-image.s3.eu-west-3.amazonaws.com/grimoire1.webp",
@@ -190,14 +192,14 @@ export const projects = {
 			],
 		},
 		{
-			type:"React",
-			category:"Frontend",
+			type: "React",
+			category: "Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/kasa.gif",
 			title: "Kasa Immobilière ",
 			description: "Un site React : configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React.",
-			demo:"https://yilizzz.github.io/kasa-location",
+			demo: "https://yilizzz.github.io/kasa-location",
 			techniques: [
-				"React", 
+				"React",
 				"React Router",
 				"Carousel",
 				"JSON"
@@ -208,14 +210,14 @@ export const projects = {
 			],
 		},
 		{
-			type:"PHP",
-			category:"Backend",
+			type: "PHP",
+			category: "Backend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/blog.webp",
 			title: "Gestion de Blogs",
 			description: "La gestion du blog fournit les fonctions suivantes : connexion des utilisateurs, inscription, CRUD des catégories et contenus de blog, lecture et commentaires.",
-			demo:"https://portfolio-sophie.alwaysdata.net/blogzzz/",
+			demo: "https://portfolio-sophie.alwaysdata.net/blogzzz/",
 			techniques: [
-				"PHP", 
+				"PHP",
 				"PDO",
 				"MySQL",
 				"jQuery",
@@ -224,17 +226,17 @@ export const projects = {
 			pictures: [
 				"https://projects-image.s3.eu-west-3.amazonaws.com/blog1.png",
 				"https://projects-image.s3.eu-west-3.amazonaws.com/blog2.png"
-				]
+			]
 		},
 		{
-			type:"JavaScript",
-			category:"Frontend",
+			type: "JavaScript",
+			category: "Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/sophie.gif",
 			title: "Portfolio Architecte Sophie Bluel",
 			description: "Une page web dynamique en JavaScript : récupérer les données utilisateurs dans le JavaScript via des formulaires, manipuler les éléments du DOM avec JavaScript, gérer les événements utilisateurs avec JavaScript.",
-			demo:"https://yilizzz.github.io/portfolio-sophie-frontend/",
+			demo: "https://yilizzz.github.io/portfolio-sophie-frontend/",
 			techniques: [
-				"JavaScript", 
+				"JavaScript",
 				"Fetch",
 				"Fenêtre modale",
 				"Postman"
@@ -242,17 +244,17 @@ export const projects = {
 			pictures: [
 				"https://projects-image.s3.eu-west-3.amazonaws.com/sophie1.webp",
 				"https://projects-image.s3.eu-west-3.amazonaws.com/sophie2.webp"
-				]
+			]
 		},
 		{
-			type:"SEO",
-			category:"SEO",
+			type: "SEO",
+			category: "SEO",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/seo.webp",
 			title: "SEO site de Nina Carducci",
 			description: "Optimisez un site d'une photographe : optimiser les performances d'un site web, débugger un site web grâce aux Chrome DevTools, rédiger un cahier de recette pour tester un site.",
-			demo:"https://yilizzz.github.io/nina-photographer-seo/",
+			demo: "https://yilizzz.github.io/nina-photographer-seo/",
 			techniques: [
-				"SEO", 
+				"SEO",
 				"Chrome DevTools",
 				"Lighthouse",
 				"Google Rich Snippet",
@@ -260,24 +262,24 @@ export const projects = {
 			],
 			pictures: [
 				"https://projects-image.s3.eu-west-3.amazonaws.com/nina1.webp"
-				]
+			]
 		},
-		{   
-			type:"HTML+CSS",
-			category:"Frontend",
+		{
+			type: "HTML+CSS",
+			category: "Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/booki.gif",
 			title: "Booki Voyage",
 			description: "Un page d'accueil d'une agence de voyage en HTML & CSS : intégrer du contenu conformément à une maquette, implémenter une interface responsive.",
-			demo:"https://yilizzz.github.io/Booki/",
+			demo: "https://yilizzz.github.io/Booki/",
 			techniques: [
-				"HTML", 
+				"HTML",
 				"CSS",
 				"Media Query",
 				"Flexbox"
 			],
 			pictures: [
 				"https://projects-image.s3.eu-west-3.amazonaws.com/booki1.webp"
-				]
+			]
 		},
 	],
 }
