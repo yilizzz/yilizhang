@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Stamp from './Stamp';
 import Introtext from './Introtext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesDown } from '@fortawesome/free-solid-svg-icons'
 
 const { publicRuntimeConfig } = getConfig();
 
@@ -29,8 +30,8 @@ export const Intro = ({ title, description, buttons }) => {
 						</div>
 					</div>
 					<div className="col-sm-6 text-center" style={{ marginTop: '20px' }}>
-					<Stamp></Stamp>
-						
+						<Stamp></Stamp>
+
 					</div>
 				</div>
 			</div>
@@ -47,6 +48,11 @@ export const Presentation = ({ title, description }) => {
 					{description.map((value, index) => (
 						<p className="fs-5" key={index} >{value}</p>
 					))}
+				</div>
+				<div className='d-flex flex-row justify-content-center'>
+					<a href="#projects">
+						<FontAwesomeIcon icon={faAnglesDown} />
+					</a>
 				</div>
 			</div>
 		</div>
@@ -77,23 +83,23 @@ export const Card = ({ title, description }) => {
 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem" }}>
 			<h4 className="text-primary">{title}</h4>
 			<ul className="text-dark">
-            {description.map((value, index) => (
-                <li key={index}>
-					 {value.link ? (
-                    <Link key={index} href={value.link} target="_blank">
-                        {value.item}
-						<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
-                    </Link>
-                ) : (
-                    <>
-						{value.item}
-                        <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
-                        
-                    </>
-                )}
-				</li>
-            ))}
-        	</ul>
+				{description.map((value, index) => (
+					<li key={index}>
+						{value.link ? (
+							<Link key={index} href={value.link} target="_blank">
+								{value.item}
+								<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
+							</Link>
+						) : (
+							<>
+								{value.item}
+								<FontAwesomeIcon className="icon-style mx-1" icon={value.icon} />
+
+							</>
+						)}
+					</li>
+				))}
+			</ul>
 		</div>
 	);
 }

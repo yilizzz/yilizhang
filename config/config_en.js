@@ -50,9 +50,8 @@ export const intro_en = {
 export const presentation_en = {
 	title: "Who am I",
 	description: [
-		"With a degree in computer science, I was a C++ programmer. More than anything, I am passionate about web development. As a result, I completed an RNCP 5 in this field.",
-		"I worked in China and France , strong adaptability and I have always worked in a team.",
-		"Today I am continuing my studies with an RNCP 6 course as an Application Developer. "
+		"With a degree in computer science, I worked as a C++ programmer. My passion for web development pushed me to obtain a RNCP 5 in this domain.",
+		"My skills include techniques front-end React, Next.js, JS, HTML+CSS, back-end Node.js, MongoDB. Having worked in China and France, I have strong adaptability and good team spirit. I am also open to acquiring new technologies and taking on new challenges, as I consistently have."
 	],
 }
 

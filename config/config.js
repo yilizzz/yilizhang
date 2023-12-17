@@ -50,9 +50,8 @@ export const intro = {
 export const presentation = {
 	title: "Qui suis-je",
 	description: [
-		"Diplômée en informatique j'étais programmeuse C++. Plus que tout, je suis passionnée de développement web. De ce fait, j'ai donc aussi validé un RNCP 5 dans ce domaine.",
-		"J'ai travaillé en Chine et en France, forte adaptabilité et j'ai toujours travaillé en équipe.",
-		"Aujourd'hui je poursuis mon cursus avec un cursus RNCP 6 en tant que Développeur d'application. "
+		"Diplômée en informatique, j'ai exercé le métier de programmeuse C++. Ma passion pour le développement web m'a poussée à obtenir un RNCP 5 dans ce secteur.",
+		"Je maîtrise les techniques de front-end React, Next.js, JS, HTML+CSS, de back-end Node.js, MongoDB. Ayant travaillé en Chine et en France, je possède une forte adaptabilité et un bon esprit d'équipe. Je suis également ouverte à apprendre de nouvelles technologies et à relever de nouveaux défis, comme je l'ai toujours fait."
 	],
 }
 
