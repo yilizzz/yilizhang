@@ -126,7 +126,7 @@ export const projects_en = {
 		{
 			type: "React + Express + MongoDB",
 			category: "Fullstack",
-			image: "https://projects-image.s3.eu-west-3.amazonaws.com/order.png",
+			image: "https://projects-image.s3.eu-west-3.amazonaws.com/ordernew.png",
 			title: "Z Service",
 			description: "An online personal shop that allows clients to choose and pay for services online. The shop owner can log in to edit or delete services.",
 			demo: "https://github.com/yilizzz/order-f",
