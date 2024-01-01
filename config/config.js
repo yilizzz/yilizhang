@@ -144,6 +144,7 @@ export const projects = {
 				"MongoDB"
 			],
 			pictures: [
+				"https://projects-image.s3.eu-west-3.amazonaws.com/ordernew.png",
 				"https://projects-image.s3.eu-west-3.amazonaws.com/order1.jpg",
 				"https://projects-image.s3.eu-west-3.amazonaws.com/order2.png"
 			],
