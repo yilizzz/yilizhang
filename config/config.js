@@ -129,6 +129,26 @@ export const projects = {
 	title: "Projets",
 	cards: [
 		{
+			type: "React + Express + MongoDB",
+			category: "Fullstack",
+			image: "https://projects-image.s3.eu-west-3.amazonaws.com/order.png",
+			title: "Z Service",
+			description: "Une boutique en ligne : Il permet aux clients de choisir et de payer leurs services en ligne. Le directeur de la boutique peut se connecter pour modifier ou supprimer des services.",
+			demo: "https://github.com/yilizzz/order-f",
+			techniques: [
+				"React.js",
+				"Redux",
+				"@stripe/react-stripe-js",
+				"Primereact",
+				"Express",
+				"MongoDB"
+			],
+			pictures: [
+				"https://projects-image.s3.eu-west-3.amazonaws.com/order1.jpg",
+				"https://projects-image.s3.eu-west-3.amazonaws.com/order2.png"
+			],
+		},
+		{
 			type: "Next.js",
 			category: "Frontend",
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/rooom.webp",
