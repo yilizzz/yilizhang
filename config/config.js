@@ -134,7 +134,7 @@ export const projects = {
 			image: "https://projects-image.s3.eu-west-3.amazonaws.com/ordernew.png",
 			title: "Z Service",
 			description: "Une boutique en ligne : Il permet aux clients de choisir et de payer leurs services en ligne. Le directeur de la boutique peut se connecter pour modifier ou supprimer des services.",
-			demo: "https://github.com/yilizzz/order-f",
+			demo: "https://zservice.vercel.app/",
 			techniques: [
 				"React.js",
 				"Redux",
