@@ -251,7 +251,7 @@ export const projects = {
       title: "Portfolio Architecte Sophie Bluel",
       description:
         "Une page web dynamique en JavaScript : récupérer les données utilisateurs dans le JavaScript via des formulaires, manipuler les éléments du DOM avec JavaScript, gérer les événements utilisateurs avec JavaScript.",
-      demo: "https://yilizzz.github.io/portfolio-sophie-frontend/",
+      demo: "https://github.com/yilizzz/portfolio-sophie-frontend",
       techniques: ["JavaScript", "Fetch", "Fenêtre modale", "Postman"],
       pictures: [
         "https://projects-image.s3.eu-west-3.amazonaws.com/sophie1.webp",
