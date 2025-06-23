@@ -2,8 +2,8 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap';
 
 const MyCarousel = ({ project }) => {
-  const nextIcon = <div className='iconSpan'>{'>'}</div>;
-  const prevIcon = <div className='iconSpan'>{'<'}</div>;
+  const nextIcon = <div className='iconSpan'><span>{'→'}</span></div>;
+  const prevIcon = <div className='iconSpan'><span>{'←'}</span></div>;
     return (
       <div>
         <Carousel nextIcon={nextIcon} prevIcon={prevIcon}>
@@ -22,7 +22,7 @@ const MyCarousel = ({ project }) => {
             </Carousel.Item>
           ))}
         </Carousel>
-       
+
         </div>
       );
 }

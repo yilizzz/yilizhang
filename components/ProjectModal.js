@@ -26,15 +26,13 @@ function ProjectModal({ title }) {
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter" >{title}</Modal.Title>
       </Modal.Header>
-      
-      <div className="d-flex justify-content-center" style={{ padding: '20px', backgroundColor:'#F7F7F7' }}>
-        <Button href={address} variant="primary" target="_blank">
-         🌐{linkButton}
-        </Button>
-      </div>
 
       <MyCarousel project={card}></MyCarousel>
-
+        <div className="d-flex justify-content-center" style={{ padding: '20px', backgroundColor:'#F7F7F7' }}>
+            <Button href={address} variant="primary" target="_blank">
+                🌐{linkButton}
+            </Button>
+        </div>
       <div className={styles.pdetail}>
         <Detail project={card} detail="description"></Detail>
         <Detail project={card} detail="techniques"></Detail>

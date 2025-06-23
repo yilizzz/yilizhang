@@ -62,6 +62,11 @@ a {
   margin: 0 1rem 1rem 0;
 }
 
+.custom-button-selected {
+  background-color: $red !important;
+  border-color: $red !important;
+}
+
 ul.text-dark {
   list-style: none;
   padding-left: 0.5rem;
@@ -89,9 +94,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   justify-content: space-around;
 }
 .iconSpan {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  position: relative;
   width: 60px;
   height: 60px;
   background-color: #2f465b;
@@ -99,6 +102,40 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   color: white;
   font-size: 24px;
   font-weight: 500;
+}
+.swiper-pagination{
+  color:$red;
+}
+
+/* Custom styles for Swiper fraction pagination */
+.swiper-pagination-fraction {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.swiper-pagination-current {
+  color: $secondary;;
+}
+.swiper-pagination-total {
+  color: $secondary;;
+}
+.swiper-pagination-separator {
+  color: $secondary;;
+  font-weight: 400;
+  margin: 0 5px;
+  position: relative;
+  top: -1px;
+}
+.iconSpan span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 800px) {
@@ -116,11 +153,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
   background-color: $primary;
 }
 .pageFoot{
-  
+
     --s: 50px; /* control the size */
     --c1: #e2af91;
     --c2: #2f465b;
-    
+
     --_g: 
        var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
        var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;

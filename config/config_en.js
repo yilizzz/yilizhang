@@ -126,6 +126,85 @@ export const projects_en = {
   title: "Projects",
   cards: [
     {
+      type: "React + Emotion + HTML2Canvas + jsPDF",
+      category: "Frontend",
+      image: "https://projects-image.s3.eu-west-3.amazonaws.com/puroak3.webp",
+      title: "Configurateur Puroak",
+      description:
+          "Ce projet consiste en un outil de configuration interactif pour les produits Puroak qui permet aux utilisateurs de : parcourez les différentes options et sélectionnez différentes dimensions pour identifier les produits; Une fois la configuration terminée, l'outil peut générer un récapitulatif détaillé.",
+      demo: "https://configurateur.puroak.fr/",
+      techniques: [
+        "React",
+        "Storybook",
+        "TypeScript",
+        "Formik",
+        "@ark-ui/react",
+        "HTML2Canvas & jsPDF",
+        "Tailwind CSS, Emotion (CSS & Styled)",
+      ],
+      pictures: [
+        "https://projects-image.s3.eu-west-3.amazonaws.com/puroak1.PNG",
+        "https://projects-image.s3.eu-west-3.amazonaws.com/puroak2.PNG",
+        "https://projects-image.s3.eu-west-3.amazonaws.com/puroak3.webp",
+      ],
+    },
+    {
+      type: "Nextjs + TypeScript + Ark UI + React Query + next-sitemap",
+      category: "Frontend",
+      image: "https://projects-image.s3.eu-west-3.amazonaws.com/agp1.webp",
+      title: "Site Groupe AGP",
+      description:
+          "The Groupe AGP website's frontend primarily serves to Information Display and Brand Presentation. Beyond static information, the website offers various Interactive Elements to enhance user experience and facilitate engagement : navigation, forms, dynamic content, and responsive design.",
+      demo: "https://groupe-agp.com/",
+      techniques: [
+        "Nextjs",
+        "TypeScript",
+        "Swiper",
+        "React Query",
+        "formik",
+        "next-sitemap",
+      ],
+      pictures: [
+        "https://projects-image.s3.eu-west-3.amazonaws.com/agp1.webp",
+        "https://projects-image.s3.eu-west-3.amazonaws.com/agp2.webp",
+      ],
+    },
+    {
+      type: "Nextjs + TypeScript + Swiper + React Query + react-google-maps",
+      category: "Frontend",
+      image: "https://projects-image.s3.eu-west-3.amazonaws.com/economus1.webp",
+      title: "Site Economus",
+      description:
+          "The Economus website delivers a dynamic and intuitive experience for discovering local discounts. It's designed to prominently display essential discount information and details for all partner shops. The site also features engaging dynamic content displays, paypal payment and integrates Google Maps for location-based features.",
+      demo: "https://www.economus.fr/",
+      techniques: [
+        "Nextjs",
+        "TypeScript",
+        "Swiper",
+        "React Query",
+        "@vis.gl/react-google-maps",
+      ],
+      pictures: [
+        "https://projects-image.s3.eu-west-3.amazonaws.com/economus1.webp",
+        "https://projects-image.s3.eu-west-3.amazonaws.com/economus2.webp",
+      ],
+    },
+    {
+      type: "Nextjs + TypeScript + storybook + directus",
+      category: "Frontend",
+      image: "https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp",
+      title: "Site Namkin",
+      description:
+          "The Namkin website is an engaging and informative platform, adept at efficiently presenting both static company information and dynamic content. It leverages a robust connection with Directus as its CMS, an integration that allows the frontend to dynamically fetch and display a wide array of content. A key interactive feature is the form-based content unlock mechanism, which enables users to access exclusive by submitting their information.",
+      demo: "https://namkin.fr/",
+      techniques: ["Nextjs", "TypeScript", "storybook", "zustand", "directus"],
+      pictures: [
+        "https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp",
+        "https://projects-image.s3.eu-west-3.amazonaws.com/namkin2.webp",
+        "https://projects-image.s3.eu-west-3.amazonaws.com/namkin3.webp",
+      ],
+    },
+    {
       type: "React + Express + MongoDB",
       category: "Fullstack",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/ordernew.png",
