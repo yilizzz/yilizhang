@@ -238,7 +238,7 @@ export const projects = {
       title: "My Rooom",
       description:
         "Site de location, fonctionnalités: consulter les informations de location sur Google Maps, publier et marquer des annonces.",
-      demo: "https://rooom-f.vercel.app/",
+      demo: "https://github.com/yilizzz/rooom-f",
       techniques: [
         "Next.js",
         "React-google-maps/api",
@@ -259,7 +259,7 @@ export const projects = {
       title: "Sniff Jobs",
       description:
         "Une application pour suivre les offres d'emploi : il est plus beau qu'un tableau de suivi de recherches en Excel, et possède la fonction CRUD.",
-      demo: "https://jobs-f.vercel.app/",
+      demo: "https://github.com/yilizzz/jobs-f",
       techniques: [
         "Node.js",
         "Express",
@@ -280,7 +280,7 @@ export const projects = {
       title: "Mon Vieux Grimoire",
       description:
         "Back-end d'un site de notation de livres : implémenter un modèle logique de données conformément à la réglementation, stocker des données de manière sécurisée, mettre en œuvre des opérations CRUD de manière sécurisée.",
-      demo: "https://grimoire-book-site-f.vercel.app/",
+      demo: "https://github.com/yilizzz/grimoire-book-site",
       techniques: [
         "Node.js",
         "Express",
@@ -316,7 +316,7 @@ export const projects = {
       title: "Gestion de Blogs",
       description:
         "La gestion du blog fournit les fonctions suivantes : connexion des utilisateurs, inscription, CRUD des catégories et contenus de blog, lecture et commentaires.",
-      demo: "https://portfolio-sophie.alwaysdata.net/blogzzz/",
+      demo: "https://github.com/yilizzz/blog-zzz",
       techniques: ["PHP", "PDO", "MySQL", "jQuery", "Xampp"],
       pictures: [
         "https://projects-image.s3.eu-west-3.amazonaws.com/blog1.png",

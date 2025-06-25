@@ -233,7 +233,7 @@ export const projects_en = {
       title: "My Rooom",
       description:
         "A rental site, features: view rental information on Google Maps, publish and mark ads.",
-      demo: "https://rooom-f.vercel.app/",
+      demo: "https://github.com/yilizzz/rooom-f",
       techniques: [
         "Next.js",
         "React-google-maps/api",
@@ -254,7 +254,7 @@ export const projects_en = {
       title: "Sniff Jobs",
       description:
         "An application for tracking posting jobs: CRUD function of resume posting records, it also distinguishes postings in various states.",
-      demo: "https://jobs-f.vercel.app/",
+      demo: "https://github.com/yilizzz/jobs-f",
       techniques: [
         "Node.js",
         "Express",
@@ -275,7 +275,7 @@ export const projects_en = {
       title: "My Old Grimoire",
       description:
         "Back-end of a book rating site: implement a logical data model according to regulations, store data in a secure way, implement CRUD operations in a secure way.",
-      demo: "https://grimoire-book-site-f.vercel.app/",
+      demo: "https://github.com/yilizzz/grimoire-book-site",
       techniques: [
         "Node.js",
         "Express",
@@ -311,7 +311,7 @@ export const projects_en = {
       title: "Blog LabZZZ",
       description:
         "A blog management provides the following functions: user login, registration, CRUD of blog categories and content, reading and comments.",
-      demo: "https://portfolio-sophie.alwaysdata.net/blogzzz/",
+      demo: "https://github.com/yilizzz/blog-zzz",
       techniques: ["PHP", "PDO", "MySQL", "jQuery", "Xampp"],
       pictures: [
         "https://projects-image.s3.eu-west-3.amazonaws.com/blog1.png",
