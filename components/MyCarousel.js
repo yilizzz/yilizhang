@@ -10,7 +10,7 @@ const MyCarousel = ({ project }) => {
       <Carousel 
         nextIcon={nextIcon} 
         prevIcon={prevIcon}
-        className="custom-carousel"
+        className='custom-carousel'
       >
         {project.pictures.map((address, index) => (
           <Carousel.Item key={index}>
@@ -27,19 +27,6 @@ const MyCarousel = ({ project }) => {
           </Carousel.Item>
         ))}
       </Carousel>
-
-      <style jsx global>{`
-        .custom-carousel .carousel-indicators {
-          margin: 60px 0 0 0;
-        }
-        .custom-carousel .carousel-indicators [data-bs-target] {
-          background-color: #2f465b;
-          width: 10px;
-          height: 10px;
-          border-radius: 50%;
-          margin: 0 8px;
-        }
-      `}</style>
     </div>
   );
 }

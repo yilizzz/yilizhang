@@ -71,7 +71,7 @@ export const Projects = ({ title, cards }) => {
             navigation={true}
             autoplay={{
               delay: 4500,
-              disableOnInteraction: false,
+              disableOnInteraction: true,
             }}
             modules={[Pagination, Navigation,Autoplay,EffectCoverflow]}
             className="!overflow-visible w-full"
@@ -115,6 +115,7 @@ export const Card = ({ image, title, type }) => {
     <div
       className="card py-3 px-3 mx-sm-4 my-4 !w-[23rem]"
     >
+      <div className="d-flex flex-column justify-content-center">
       <Image
         className="img-fluid my-3 card-image"
         role="button"
@@ -125,23 +126,18 @@ export const Card = ({ image, title, type }) => {
         alt={title}
         onClick={handleShow}
       />
-      <div className="d-flex flex-row justify-content-between">
         <div className="fw-bold">{type}</div>
-        <div className="text-center">
-          <Button variant="primary" onClick={handleShow} size="sm">
-            🗂️Details
-          </Button>
-          <Modal
-            size="lg"
-            show={show}
-            onHide={handleClose}
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-          >
-            <ProjectModal title={title}></ProjectModal>
-          </Modal>
-        </div>
       </div>
+      <Modal
+          size="lg"
+          show={show}
+          onHide={handleClose}
+          aria-labelledby="contained-modal-title-vcenter"
+          centered
+      >
+        <ProjectModal title={title}></ProjectModal>
+      </Modal>
+
     </div>
   );
 };

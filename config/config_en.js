@@ -35,7 +35,7 @@ export const navigation_en = {
 };
 export const intro_en = {
   title: "Hello, I'm Yili",
-  description: "A full stack developer",
+  description: "A web developer",
 
   buttons: [
     {
@@ -54,8 +54,11 @@ export const intro_en = {
 export const presentation_en = {
   title: "Who am I",
   description: [
-    "With a degree in computer science, I worked as a C++ programmer. My passion for web development pushed me to obtain a RNCP 5 in this domain.",
-    "My skills include techniques front-end React, Next.js, JS, HTML+CSS, back-end Node.js, MongoDB. Having worked in China and France, I have strong adaptability and good team spirit. I am also open to acquiring new technologies and taking on new challenges, as I consistently have.",
+    "I'm a passionate developer with a strong background in **front-end** development. My journey, which initially focused on C++ programming, evolved into web development after earning an RNCP 5, solidifying my mastery of modern technologies.",
+    "I excel within the **React ecosystem**, leveraging **Next.js** for high-performance applications, and I'm highly proficient with **TypeScript**. My expertise extends to tools like **Storybook** for component documentation, **Emotion** for advanced styling, **Ark-UI** for reactive interfaces, and **React Query** alongside **Zustand** for optimized state and data management. I've also integrated libraries such as **Swiper** for interactive carousels and **Formik** for robust form handling.",
+    "Beyond my front-end skills, I've had the opportunity to work on **back-end** aspects with **Directus**,**MongoDB**, **Express**, which gives me a comprehensive understanding of web architectures.",
+    "My professional experience in both China and France has fostered strong **adaptability** and excellent **teamwork** skills. I'm continuously motivated to learn new technologies and embrace new challenges, as demonstrated by my career path and ongoing commitment.",
+    "I'm currently looking for a **front-end / full-stack** developer position. I'm available for remote work, and I'm open to discussing new opportunities.",
   ],
 };
 
@@ -126,12 +129,12 @@ export const projects_en = {
   title: "Projects",
   cards: [
     {
-      type: "React + Emotion + HTML2Canvas + jsPDF",
+      type: "Puroak: Multi-condition product search page",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/puroak3.webp",
       title: "Configurateur Puroak",
       description:
-          "Ce projet consiste en un outil de configuration interactif pour les produits Puroak qui permet aux utilisateurs de : parcourez les différentes options et sélectionnez différentes dimensions pour identifier les produits; Une fois la configuration terminée, l'outil peut générer un récapitulatif détaillé.",
+          "An interactive configuration tool for Puroak products that allows users to: browse through different options and select different dimensions to identify products; once the configuration is complete, the tool can generate a detailed summary PDF.",
       demo: "https://configurateur.puroak.fr/",
       techniques: [
         "React",
@@ -149,13 +152,12 @@ export const projects_en = {
       ],
     },
     {
-      type: "Nextjs + TypeScript + Ark UI + React Query + next-sitemap",
+      type: "AGP Group: Company Website",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/agp1.webp",
       title: "Site Groupe AGP",
       description:
-          "The Groupe AGP website's frontend primarily serves to Information Display and Brand Presentation. Beyond static information, the website offers various Interactive Elements to enhance user experience and facilitate engagement : navigation, forms, dynamic content, and responsive design.",
-      demo: "https://groupe-agp.com/",
+         "The front end of the AGP Group website focuses on presenting information and branding. Beyond static information, the website offers various interactive elements to enhance the user experience and facilitate engagement: navigation, forms, dynamic content, and responsive design.", demo: "https://groupe-agp.com/",
       techniques: [
         "Nextjs",
         "TypeScript",
@@ -170,7 +172,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "Nextjs + TypeScript + Swiper + React Query + react-google-maps",
+      type: "Economus: Local discount website",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/economus1.webp",
       title: "Site Economus",
@@ -190,12 +192,12 @@ export const projects_en = {
       ],
     },
     {
-      type: "Nextjs + TypeScript + storybook + directus",
+      type: "Namkin : Company Website",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp",
       title: "Site Namkin",
       description:
-          "The Namkin website is an engaging and informative platform, adept at efficiently presenting both static company information and dynamic content. It leverages a robust connection with Directus as its CMS, an integration that allows the frontend to dynamically fetch and display a wide array of content. A key interactive feature is the form-based content unlock mechanism, which enables users to access exclusive by submitting their information.",
+          "The Namkin website is an engaging and informative platform, capable of effectively presenting both static company information and dynamic content. It relies on a robust connection with Directus as a CMS, an integration that allows the frontend to dynamically retrieve and display a wide range of content. A key interactive feature is the form-based content unlocking mechanism, which allows users to access exclusive content by submitting their information.",
       demo: "https://namkin.fr/",
       techniques: ["Nextjs", "TypeScript", "storybook", "zustand", "directus"],
       pictures: [
@@ -205,12 +207,12 @@ export const projects_en = {
       ],
     },
     {
-      type: "React + Express + MongoDB",
+      type: "Z Service: Online shop",
       category: "Fullstack",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/ordernew.png",
       title: "Z Service",
       description:
-        "An online personal shop that allows clients to choose and pay for services online. The shop owner can log in to edit or delete services.",
+        "An online personal shop that allows clients to choose and pay for services. The shop owner can log in to edit or delete services.",
       demo: "https://github.com/yilizzz/order-f",
       techniques: [
         "React",
@@ -227,7 +229,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "Next.js",
+      type: "My Rooom: Rental site",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/rooom.webp",
       title: "My Rooom",
@@ -248,12 +250,12 @@ export const projects_en = {
       ],
     },
     {
-      type: "Node.js + Vue3",
+      type: "Sniff Jobs: Job posting site",
       category: "Fullstack",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/jobs.webp",
       title: "Sniff Jobs",
       description:
-        "An application for tracking posting jobs: CRUD function of resume posting records, it also distinguishes postings in various states.",
+        "A tool for tracking posting jobs: CRUD function of resume posting records, it also distinguishes postings in various states.",
       demo: "https://github.com/yilizzz/jobs-f",
       techniques: [
         "Node.js",
@@ -269,7 +271,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "Node.js",
+      type: "My Old Grimoire: Book rating site",
       category: "Backend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/grimoire.gif",
       title: "My Old Grimoire",
@@ -291,7 +293,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "React",
+      type: "Kasa : real estate agency",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/kasa.gif",
       title: "Kasa real estate agency",
@@ -305,7 +307,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "PHP",
+      type: "Blog LabZZZ: Blog management",
       category: "Backend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/blog.webp",
       title: "Blog LabZZZ",
@@ -319,7 +321,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "JavaScript",
+      type: "Sophie Bluel : Portfolio Architect",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/sophie.gif",
       title: "Portfolio Architect Sophie Bluel",
@@ -333,7 +335,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "SEO",
+      type: "SEO of a photographer's site",
       category: "SEO",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/seo.webp",
       title: "SEO site of Nina Carducci",
@@ -352,7 +354,7 @@ export const projects_en = {
       ],
     },
     {
-      type: "HTML+CSS",
+      type: "Booki : Homepage of a Travel agency",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/booki.gif",
       title: "Booki Voyage",

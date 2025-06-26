@@ -35,7 +35,7 @@ export const navigation = {
 };
 export const intro = {
   title: "Bonjour, c'est Yili",
-  description: "Une Développeuse Web Full Stack",
+  description: "Une Développeuse Web",
 
   buttons: [
     {
@@ -54,8 +54,11 @@ export const intro = {
 export const presentation = {
   title: "Qui suis-je",
   description: [
-    "Diplômée en informatique, j'ai exercé le métier de programmeuse C++. Ma passion pour le développement web m'a poussée à obtenir un RNCP 5 dans ce secteur.",
-    "Je maîtrise les techniques de front-end React, Next.js, JS, HTML+CSS, de back-end Node.js, MongoDB. Ayant travaillé en Chine et en France, je possède une forte adaptabilité et un bon esprit d'équipe. Je suis également ouverte à apprendre de nouvelles technologies et à relever de nouveaux défis, comme je l'ai toujours fait.",
+    "Je suis une développeuse passionnée avec l'expérience en développement **front-end**. Mon parcours, initialement axé sur la programmation C++, a évolué vers le web après l'obtention d'un RNCP 5, confirmant ma maîtrise des technologies modernes.",
+    "J'excelle dans **l'écosystème React**, utilisant **Next.js** pour des applications performantes, et je suis à l'aise avec **TypeScript**. Mon expertise s'étend à des outils comme **Storybook** pour la documentation des composants, **Emotion** pour le stylage avancé, **Ark-UI** pour des interfaces réactives, et **React Query** ainsi que **Zustand** pour une gestion d'état et des données optimisée. J'ai également intégré des bibliothèques telles que **Swiper** pour des carrousels interactifs et **Formik** pour la gestion des formulaires.",
+    "En plus de mes compétences front-end, j'ai eu l'occasion de travailler sur des aspects **back-end** avec **Directus**, **MongoDB**, **Express**, ce qui me confère une compréhension globale des architectures web.",
+    "Mon expérience professionnelle en Chine et en France a cultivé une **forte adaptabilité** et un **excellent esprit d'équipe**. Je suis constamment motivée à apprendre de nouvelles technologies et à relever de nouveaux défis, comme en témoigne mon parcours et mon engagement continu.",
+    "Je recherche actuellement un poste de développeur **front-end / full-stack**. Je suis disponible pour le télétravail et ouvert à toute nouvelle opportunité."
   ],
 };
 
@@ -131,12 +134,12 @@ export const projects = {
   title: "Projets",
   cards: [
     {
-      type: "React + Emotion + HTML2Canvas + jsPDF",
+      type: "Puroak : Page de recherche de produits multi-conditions",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/puroak3.webp",
       title: "Configurateur Puroak",
       description:
-          "Ce projet consiste en un outil de configuration interactif pour les produits Puroak qui permet aux utilisateurs de : parcourez les différentes options et sélectionnez différentes dimensions pour identifier les produits; Une fois la configuration terminée, l'outil peut générer un récapitulatif détaillé.",
+          "Un outil de configuration interactif pour les produits Puroak qui permet aux utilisateurs de : parcourer les différentes options et sélectionner différentes dimensions pour identifier les produits; une fois la configuration terminée, l'outil peut générer un PDF récapitulatif détaillé.",
       demo: "https://configurateur.puroak.fr/",
       techniques: [
         "React",
@@ -154,12 +157,12 @@ export const projects = {
       ],
     },
     {
-      type: "Nextjs + TypeScript + Ark UI + React Query + next-sitemap",
+      type: "Groupe AGP : Site Web de l'entreprise",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/agp1.webp",
-      title: "Site Groupe AGP",
+      title: "Website Groupe AGP",
       description:
-          "Le frontend du site web de Groupe AGP est centrée sur la Présentation de l'Information et de l'Image de Marque. Au-delà des informations statiques, le site web propose divers Éléments Interactifs pour améliorer l'expérience utilisateur et faciliter l'engagement : navigation, formulaires, contenu dynamique et responsive design.",
+          "Le frontend du site web de Groupe AGP est centrée sur la présentation de l'information et de l'image de marque. Au-delà des informations statiques, le site web propose divers éléments interactifs pour améliorer l'expérience utilisateur et faciliter l'engagement : navigation, formulaires, contenu dynamique et responsive design.",
       demo: "https://groupe-agp.com/",
       techniques: [
         "Nextjs",
@@ -175,10 +178,10 @@ export const projects = {
       ],
     },
     {
-      type: "Nextjs + TypeScript + Swiper + React Query + react-google-maps",
+      type: "Economus : Site Web de réduction locaux",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/economus1.webp",
-      title: "Site Economus",
+      title: "Website Economus",
       description:
           "Le site web Economus offre une expérience dynamique et conviviale pour la découverte de réductions locales. Il est conçu pour afficher de manière proéminente les informations essentielles sur les remises et les détails de tous les commerces partenaires. Le site propose également des affichages de contenu dynamiques attrayants, paypal payment et intègre Google Maps pour des fonctionnalités de localisation.",
       demo: "https://www.economus.fr/",
@@ -195,10 +198,10 @@ export const projects = {
       ],
     },
     {
-      type: "Nextjs + TypeScript + storybook + directus",
+      type: "Namkin : Site Web de l'entreprise",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp",
-      title: "Site Namkin",
+      title: "Website Namkin",
       description:
           "Le site web Namkin est une plateforme engageante et informative, capable de présenter efficacement à la fois les informations statiques de l'entreprise et le contenu dynamique. Il s'appuie sur une connexion robuste avec Directus en tant que CMS, une intégration qui permet au frontend de récupérer et d'afficher dynamiquement une vaste gamme de contenus. Une fonctionnalité interactive clé est le mécanisme de déverrouillage de contenu basé sur un formulaire, qui permet aux utilisateurs d'accéder à du contenu exclusif en soumettant leurs informations.",
       demo: "https://namkin.fr/",
@@ -210,12 +213,12 @@ export const projects = {
       ],
     },
     {
-      type: "React + Express + MongoDB",
+      type: "Z Service : Site de commande en ligne",
       category: "Fullstack",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/ordernew.png",
       title: "Z Service",
       description:
-        "Une boutique en ligne : Il permet aux clients de choisir et de payer leurs services en ligne. Le directeur de la boutique peut se connecter pour modifier ou supprimer des services.",
+        "Une boutique en ligne : Il permet aux clients de choisir et de payer leurs services. Le directeur de la boutique peut se connecter pour modifier ou supprimer des services.",
       demo: "https://github.com/yilizzz/order-f",
       techniques: [
         "React.js",
@@ -232,7 +235,7 @@ export const projects = {
       ],
     },
     {
-      type: "Next.js",
+      type: "My Rooom : Site de location",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/rooom.webp",
       title: "My Rooom",
@@ -253,12 +256,12 @@ export const projects = {
       ],
     },
     {
-      type: "Node.js + Vue3",
+      type: "Sniff Jobs : Un outil pour la recherche d'emploi",
       category: "Fullstack",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/jobs.webp",
       title: "Sniff Jobs",
       description:
-        "Une application pour suivre les offres d'emploi : il est plus beau qu'un tableau de suivi de recherches en Excel, et possède la fonction CRUD.",
+        "Un outil pour suivre les offres d'emploi : il est plus beau qu'un tableau de suivi de recherches en Excel, et possède la fonction CRUD.",
       demo: "https://github.com/yilizzz/jobs-f",
       techniques: [
         "Node.js",
@@ -274,7 +277,7 @@ export const projects = {
       ],
     },
     {
-      type: "Node.js",
+      type: "Mon Vieux Grimoire : Back-end d'un site de notation de livres",
       category: "Backend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/grimoire.gif",
       title: "Mon Vieux Grimoire",
@@ -296,10 +299,10 @@ export const projects = {
       ],
     },
     {
-      type: "React",
+      type: "Kasa Immobilière : Site de location",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/kasa.gif",
-      title: "Kasa Immobilière ",
+      title: "Kasa Immobilière",
       description:
         "Un site React : configurer la navigation entre les pages de l'application avec React Router, initialiser une application avec Create React App, développer des éléments de l'interface d'un site web grâce à des composants React.",
       demo: "https://yilizzz.github.io/kasa-location",
@@ -310,7 +313,7 @@ export const projects = {
       ],
     },
     {
-      type: "PHP",
+      type: "Blog ZZZ : Gestion de Blogs",
       category: "Backend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/blog.webp",
       title: "Gestion de Blogs",
@@ -324,7 +327,7 @@ export const projects = {
       ],
     },
     {
-      type: "JavaScript",
+      type: "Sophie Bluel : Portfolio Architecte",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/sophie.gif",
       title: "Portfolio Architecte Sophie Bluel",
@@ -338,7 +341,7 @@ export const projects = {
       ],
     },
     {
-      type: "SEO",
+      type: "Nina Carducci : SEO",
       category: "SEO",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/seo.webp",
       title: "SEO site de Nina Carducci",
@@ -357,7 +360,7 @@ export const projects = {
       ],
     },
     {
-      type: "HTML+CSS",
+      type: "Booki : Page d'accueil d'une agence de voyage",
       category: "Frontend",
       image: "https://projects-image.s3.eu-west-3.amazonaws.com/booki.gif",
       title: "Booki Voyage",
