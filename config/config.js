@@ -54,12 +54,10 @@ export const intro = {
 export const presentation = {
   title: "Qui suis-je",
   description: [
-    "Je suis une développeuse passionnée avec l'expérience en développement **front-end**. Mon parcours, initialement axé sur la programmation C++, a évolué vers le web après l'obtention d'un RNCP 5, confirmant ma maîtrise des technologies modernes.",
-    "J'excelle dans **l'écosystème React**, utilisant **Next.js** pour des applications performantes, et je suis à l'aise avec **TypeScript**. Mon expertise s'étend à des outils comme **Storybook** pour la documentation des composants, **Emotion** pour le stylage avancé, **Ark-UI** pour des interfaces réactives, et **React Query** ainsi que **Zustand** pour une gestion d'état et des données optimisée. J'ai également intégré des bibliothèques telles que **Swiper** pour des carrousels interactifs et **Formik** pour la gestion des formulaires.",
-    "En plus de mes compétences front-end, j'ai eu l'occasion de travailler sur des aspects **back-end** avec **Directus**, **MongoDB**, **Express**, ce qui me confère une compréhension globale des architectures web.",
-    "Mon expérience professionnelle en Chine et en France a cultivé une **forte adaptabilité** et un **excellent esprit d'équipe**. Je suis constamment motivée à apprendre de nouvelles technologies et à relever de nouveaux défis, comme en témoigne mon parcours et mon engagement continu.",
-    "Je recherche actuellement un poste de développeur **front-end / full-stack**. Je suis disponible pour le télétravail et ouvert à toute nouvelle opportunité."
-  ],
+    "**Développeuse Front-end rigoureuse et polyvalente**, j'excelle dans la création d'applications web performantes. Mon parcours, initié en programmation C++, m'a conduite à une solide maîtrise de l'écosystème **React, Next.js et TypeScript**, renforcée par l'obtention d'un RNCP 5.",
+    "Je manie avec aisance des outils modernes comme **Storybook, Emotion, Ark-UI, React Query et Zustand**, assurant une gestion d'état et des données optimisée. Mon expertise s'étend également à l'intégration **back-end** (Directus, MongoDB, Express), offrant une compréhension globale des architectures web.",
+    "Mes collègues apprécient ma capacité à apporter une **ambiance joyeuse et collaborative**, et ma **forte adaptabilité** me permet d'aborder chaque nouveau défi avec enthousiasme. Mon expérience en Chine et en France a cultivé cet esprit d'équipe et ma soif d'apprendre.",
+    "Je recherche activement un poste de développeur **front-end ou full-stack**. Disponible pour le télétravail et ouverte à toute nouvelle opportunité."],
 };
 
 export const about = {
@@ -84,7 +82,6 @@ export const about = {
         {
           item: "Anglais BULATS C1",
           icon: faLanguage,
-          link: "https://www.docdroid.net/eJBLVi7/bulats-pdf",
         },
         {
           item: "Chinois langue maternelle",
@@ -93,7 +90,6 @@ export const about = {
         {
           item: "Français DELF B2",
           icon: faLanguage,
-          link: "https://www.docdroid.net/170zuKM/delfb2-rotated-pdf",
         },
       ],
     },
@@ -103,7 +99,6 @@ export const about = {
         {
           item: "Développeur Web",
           icon: faCode,
-          link: "https://www.docdroid.net/87wJxDS/proof-of-completion-pdf",
         },
         {
           item: "Building Applications in PHP",

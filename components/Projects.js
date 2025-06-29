@@ -111,6 +111,23 @@ export const Card = ({ image, title, type }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  // Define which types should show the "new" label
+  const newTypes = [
+    // French types
+    "Puroak : Page de recherche de produits multi-conditions",
+    "Groupe AGP : Site Web de l'entreprise",
+    "Economus : Site Web de réduction locaux",
+    "Namkin : Site Web de l'entreprise",
+    // English types
+    "Puroak: Multi-condition product search page",
+    "AGP Group: Company Website",
+    "Economus: Local discount website",
+    "Namkin : Company Website"
+  ];
+
+  // Check if the current type should show the "new" label
+  const showNewLabel = newTypes.includes(type);
+
   return (
     <div
       className="card py-3 px-3 mx-sm-4 my-4 !w-[23rem]"
@@ -126,7 +143,29 @@ export const Card = ({ image, title, type }) => {
         alt={title}
         onClick={handleShow}
       />
-        <div className="fw-bold">{type}</div>
+        <div className="fw-bold position-relative">
+          {showNewLabel && (
+            <span 
+              style={{ 
+                color: '#a6522c', 
+                fontSize: '0.85rem', 
+                fontWeight: 'bold', 
+                position: 'absolute', 
+                top: '-18px', 
+                left: '0px',
+                padding: '1px 4px',
+                borderRadius: '8px',
+                border: '2px solid #a6522c',
+                background: 'rgba(255, 255, 255, 0.8)',
+                boxShadow: '0 1px 3px rgba(166, 82, 44, 0.3)',
+                animation: 'bounce-animation 2s infinite'
+              }}
+            >
+              new
+            </span>
+          )}
+          {type}
+        </div>
       </div>
       <Modal
           size="lg"

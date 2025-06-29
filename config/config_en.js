@@ -45,7 +45,7 @@ export const intro_en = {
     },
     {
       title: "CV",
-      link: "https://docdro.id/tZvmaVW",
+      link: "https://docdro.id/eJBLVi7",
       isPrimary: false,
     },
   ],
@@ -53,13 +53,10 @@ export const intro_en = {
 
 export const presentation_en = {
   title: "Who am I",
-  description: [
-    "I'm a passionate developer with a strong background in **front-end** development. My journey, which initially focused on C++ programming, evolved into web development after earning an RNCP 5, solidifying my mastery of modern technologies.",
-    "I excel within the **React ecosystem**, leveraging **Next.js** for high-performance applications, and I'm highly proficient with **TypeScript**. My expertise extends to tools like **Storybook** for component documentation, **Emotion** for advanced styling, **Ark-UI** for reactive interfaces, and **React Query** alongside **Zustand** for optimized state and data management. I've also integrated libraries such as **Swiper** for interactive carousels and **Formik** for robust form handling.",
-    "Beyond my front-end skills, I've had the opportunity to work on **back-end** aspects with **Directus**,**MongoDB**, **Express**, which gives me a comprehensive understanding of web architectures.",
-    "My professional experience in both China and France has fostered strong **adaptability** and excellent **teamwork** skills. I'm continuously motivated to learn new technologies and embrace new challenges, as demonstrated by my career path and ongoing commitment.",
-    "I'm currently looking for a **front-end / full-stack** developer position. I'm available for remote work, and I'm open to discussing new opportunities.",
-  ],
+  description: ["A **rigorous and versatile Front-end Developer**, I excel in creating high-performance web applications. My journey, initiated in C++ programming, led me to a solid mastery of the **React, Next.js, and TypeScript** ecosystem, further strengthened by earning a RNCP 5.",
+    "I confidently wield modern tools like **Storybook, Emotion, Ark-UI, React Query, and Zustand**, ensuring optimized state and data management. My expertise also extends to **back-end** integration (Directus, MongoDB, Express), providing a comprehensive understanding of web architectures.",
+    "My colleagues appreciate my ability to foster a **joyful and collaborative atmosphere**, and my **strong adaptability** allows me to approach every new challenge with enthusiasm. My experience in China and France has cultivated this team spirit and my eagerness to learn.",
+    "I am actively seeking a **front-end or full-stack** developer position. I am available for remote work and open to all new opportunities." ],
 };
 
 export const about_en = {
@@ -84,7 +81,6 @@ export const about_en = {
         {
           item: "English BULATS C1",
           icon: faLanguage,
-          link: "https://www.docdroid.net/eJBLVi7/bulats-pdf",
         },
         {
           item: "Chinese native language",
@@ -93,7 +89,6 @@ export const about_en = {
         {
           item: "French DELF B2",
           icon: faLanguage,
-          link: "https://www.docdroid.net/170zuKM/delfb2-rotated-pdf",
         },
       ],
     },
@@ -103,7 +98,6 @@ export const about_en = {
         {
           item: "Developper Web",
           icon: faCode,
-          link: "https://www.docdroid.net/87wJxDS/proof-of-completion-pdf",
         },
         {
           item: "Building Applications in PHP",

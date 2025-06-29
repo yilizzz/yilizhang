@@ -85,6 +85,17 @@ a {
     box-shadow: 0 0 0 0 rgba(166, 82, 44, 0);
   }
 }
+
+@keyframes bounce-animation {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+    text-shadow: 0 0 0 rgba(166, 82, 44, 0.7);
+  }
+  50% {
+    transform: translateY(-5px) rotate(5deg);
+    text-shadow: 0 0 5px rgba(166, 82, 44, 0.7);
+  }
+}
 .custom-carousel .carousel-indicators {
   margin: 60px 0 0 0;
 }
