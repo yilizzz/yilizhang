@@ -24,7 +24,7 @@ function Projectdetails({ project, detail }) {
     const [isOpen, setIsOpen] = useState(true)
 
     return (
-        <div>
+        <div role="button">
             
             {isOpen ? (
                 <div className={styles.detailopen}>

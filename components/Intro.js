@@ -5,7 +5,7 @@ import Stamp from './Stamp';
 import Introtext from './Introtext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons'
-
+import ReactMarkdown from 'react-markdown';
 const { publicRuntimeConfig } = getConfig();
 
 export const Intro = ({ title, description, buttons }) => {
@@ -46,7 +46,8 @@ export const Presentation = ({ title, description }) => {
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-4">
 					{description.map((value, index) => (
-						<p className="fs-5" key={index} >{value}</p>
+						// <p className="fs-5" key={index} >{value}</p>
+						<ReactMarkdown  key={index}>{value}</ReactMarkdown>
 					))}
 				</div>
 				<div className='d-flex flex-row justify-content-center'>

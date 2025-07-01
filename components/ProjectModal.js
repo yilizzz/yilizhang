@@ -17,24 +17,22 @@ function ProjectModal({ title }) {
 
   const address = card["demo"];
   const linkButton = 
-    language === 'fr' ?
-    "Cliquez pour voir la démo":
-    "Site URL / Demo";
+    address.startsWith("https://github.com") ? 
+    "Source code on GitHub" : 
+    "Website address";
 
   return (
     <div>
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter" >{title}</Modal.Title>
       </Modal.Header>
-      
-      <div className="d-flex justify-content-center" style={{ padding: '20px', backgroundColor:'#F7F7F7' }}>
-        <Button href={address} variant="primary" target="_blank">
-         🌐{linkButton}
-        </Button>
-      </div>
 
       <MyCarousel project={card}></MyCarousel>
-
+        <div className="d-flex justify-content-center my-4" style={{ padding: '20px', backgroundColor:'#F7F7F7' }}>
+            <Button href={address} variant="danger" className="custom-button-selected" target="_blank">
+                {linkButton}
+            </Button>
+        </div>
       <div className={styles.pdetail}>
         <Detail project={card} detail="description"></Detail>
         <Detail project={card} detail="techniques"></Detail>
