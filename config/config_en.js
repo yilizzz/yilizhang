@@ -53,7 +53,7 @@ export const intro_en = {
 
 export const presentation_en = {
   title: "Who am I",
-  description: ["A **rigorous and versatile Front-end Developer**, I excel in creating high-performance web applications. My journey, initiated in C++ programming, led me to a solid mastery of the **React, Next.js, and TypeScript** ecosystem, further strengthened by earning a RNCP 5.",
+  description: ["A **rigorous and versatile Front-end Developer**, I excel in creating high-performance web applications. My journey led me to a solid mastery of the **React, Next.js, and TypeScript** ecosystem, further strengthened by earning a RNCP 5.",
     "I confidently wield modern tools like **Storybook, Emotion, Ark-UI, React Query, and Zustand**, ensuring optimized state and data management. My expertise also extends to **back-end** integration (Directus, MongoDB, Express), providing a comprehensive understanding of web architectures.",
     "My colleagues appreciate my ability to foster a **joyful and collaborative atmosphere**, and my **strong adaptability** allows me to approach every new challenge with enthusiasm. My experience in China and France has cultivated this team spirit and my eagerness to learn.",
     "I am actively seeking a **front-end or full-stack** developer position. I am available for remote work and open to all new opportunities." ],

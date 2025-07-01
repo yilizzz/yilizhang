@@ -54,7 +54,7 @@ export const intro = {
 export const presentation = {
   title: "Qui suis-je",
   description: [
-    "**Développeuse Front-end rigoureuse et polyvalente**, j'excelle dans la création d'applications web performantes. Mon parcours, initié en programmation C++, m'a conduite à une solide maîtrise de l'écosystème **React, Next.js et TypeScript**, renforcée par l'obtention d'un RNCP 5.",
+    "**Développeuse Front-end rigoureuse et polyvalente**, j'excelle dans la création d'applications web performantes. Mon parcours m'a conduite à une solide maîtrise de l'écosystème **React, Next.js et TypeScript**, renforcée par l'obtention d'un RNCP 5.",
     "Je manie avec aisance des outils modernes comme **Storybook, Emotion, Ark-UI, React Query et Zustand**, assurant une gestion d'état et des données optimisée. Mon expertise s'étend également à l'intégration **back-end** (Directus, MongoDB, Express), offrant une compréhension globale des architectures web.",
     "Mes collègues apprécient ma capacité à apporter une **ambiance joyeuse et collaborative**, et ma **forte adaptabilité** me permet d'aborder chaque nouveau défi avec enthousiasme. Mon expérience en Chine et en France a cultivé cet esprit d'équipe et ma soif d'apprendre.",
     "Je recherche activement un poste de développeur **front-end ou full-stack**. Disponible pour le télétravail et ouverte à toute nouvelle opportunité."],
