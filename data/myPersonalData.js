@@ -17,60 +17,66 @@ Je suis Yili, une développeur front-end expérimenté qui vise le full-stack, s
 
 **Outils de conception UI/UX:** Figma
 
-### Mon expérience de projet
-
-### Projet 1: Namkin - Site Web d'Entreprise
-
-**Rôle:** développeur front-end
+## Mon expérience de projet
 
 **Description:** 
+### 1. Projets de Sites Web d'Entreprise (Namkin et Groupe AGP)
+
 #### Objectifs du Projet
-Développement d'un site web d'entreprise moderne pour Namkin, conçu pour présenter du contenu statique et dynamique provenant de Directus CMS, avec un accent particulier sur l'expérience utilisateur optimale et la génération de leads qualifiés.
 
-####  Problèmes Résolus
+Développement des sites web d'entreprise modernes, présentation du contenu statique et dynamique provenant de Directus CMS, avec un accent particulier sur l'expérience utilisateur optimale et la génération de leads qualifiés.
 
-##### Performance et Vitesse
+#### Problèmes Résolus
+
+##### Performance et SEO
 - **Optimisation du temps de chargement** : Implémentation du rendu côté serveur (SSR) avec Next.js pour améliorer significativement les performances de chargement des pages
-- **Optimisation SEO** : Amélioration de l'indexation et du référencement naturel grâce au SSR
+- **Optimisation SEO avancée** : Génération automatique de sitemaps avec Next-sitemap pour améliorer l'indexation et le référencement naturel
+- **Gestion des requêtes API** : Intégration d'Axios ou React Query pour une communication optimisée avec Directus CMS
 
-##### Expérience Utilisateur
+##### Expérience Utilisateur et Animations
 - **Implémentation du design d'interaction** : Développement technique d'une navigation claire et logique avec système de catégorisation du contenu selon les spécifications du département design
 - **Responsivité multi-plateforme** : Adaptation parfaite sur tous types d'appareils (desktop, tablette, mobile)
+- **Animations fluides et performantes** : Intégration de Framer Motion pour créer des transitions élégantes et des micro-interactions améliorant l'engagement utilisateur
 - **Feedback utilisateur** : Intégration de retours visuels immédiats pour toutes les interactions (boutons, formulaires)
 - **Optimisation des formulaires** : Développement de messages d'erreur conviviaux et informatifs
 
-##### Accessibilité et Inclusion
+##### Fonctionnalités Avancées
+
+- Système de filtrage et recherche : Implémentation de fonctionnalités de filtrage et de recherche pour améliorer la découverte de contenu
+- Intégration CMS avancée : Connexion optimisée avec Directus pour la gestion de contenu dynamique et les requêtes filtrées
+
+##### Accessibilité et Interactions
 - **Navigation au clavier** : Implémentation complète de la navigation clavier pour l'accessibilité
-- **Animations fluides** : Création d'animations subtiles pour enrichir l'expérience sans nuire à l'accessibilité
 
 ##### Génération de Leads
 - **Système de contenu verrouillé** : Développement d'un mécanisme de déverrouillage de contenu premium après soumission de formulaire, permettant à l'entreprise de capturer des prospects qualifiés
 
 #### Mes Contributions Principales
 
-- **Développement Front-end** : Transformation complète des maquettes du département design en interfaces fonctionnelles et interactives
-- **Intégration CMS** : Connexion seamless avec Directus pour la gestion de contenu dynamique
-- **Optimisation des performances** : Implémentation des meilleures pratiques de performance web
-- **Gestion d'état** : Configuration et optimisation de la gestion d'état globale de l'application
+- **Développement Front-end** : Transformation complète des maquettes du département design en interfaces fonctionnelles et interactives 
+- **Bibliothèque de composants UI** : Création et documentation d'une design system avec Storybook pour assurer la cohérence visuelle
+- **Intégration CMS avancée** : Connexion optimisée avec Directus
+- **Optimisation SEO technique** : Configuration et implémentation de Next-sitemap pour l'indexation automatique
+- **Animations et micro-interactions** : Développement d'expériences interactives avec Framer Motion
+- **Gestion d'état complexe** : Configuration et optimisation de la gestion d'état globale
 
-#### Technologies Clés Utilisées
+#### Technologies
 
-- **Next.js** 
-- **TypeScript**
-- **Storybook** 
-- **Zustand** 
-- **Formik**
-- **React Query**
-- **Directus** 
-- **Swiper** 
+##### Framework et Langage
+- **Next.js** : Framework React pour le rendu côté serveur et l'optimisation des performances
+- **TypeScript** : Typage statique pour une meilleure maintenabilité et moins d'erreurs
 
-#### Résultats Obtenus
-- Amélioration significative du temps de chargement des pages
-- Augmentation du taux de conversion grâce à l'UX optimisée
-- Génération de leads qualifiés via le système de contenu premium
-- Site web entièrement responsive et accessible
+##### Outils de Développement
+- **Storybook** : Documentation et test des composants UI en isolation
+- **Zustand** : Gestion d'état légère et performante
+- **Formik** : Gestion avancée des formulaires avec validation
 
-### Projet 2: Economus - Plateforme de Bons de Réduction Locaux
+### Intégration et Contenu
+- **Directus** : Headless CMS pour la gestion de contenu dynamique
+- **Swiper** : Bibliothèque pour les carrousels et interactions tactiles
+ 
+
+### 2. Economus - Plateforme de Bons de Réduction Locaux
 
 #### Objectifs du Projet
 
@@ -105,5 +111,28 @@ Développement d'une plateforme web dédiée aux commerces locaux permettant la 
 #### Résultats Obtenus
 - Plateforme fonctionnelle permettant la découverte efficace de commerces locaux
 - Expérience utilisateur optimisée pour la recherche géographique
+
+### 3. Configurateur Puroak - Application de Configuration de Produits
+
+#### Objectifs du Projet
+
+Développement d'une application web complexe de configuration de produits pour Puroak, permettant aux clients de personnaliser et visualiser en temps réel leurs produits en bois (parquets, panneaux) selon leurs spécifications exactes, avec génération de devis PDF.
+
+#### Problèmes Résolus
+
+- **Interface de configuration multicritères** : Développement de l'interface utilisateur permettant la sélection de multiples paramètres
+- **Interface intuitive** : Création d'une expérience utilisateur fluide pour naviguer entre les nombreuses options disponibles
+- **Responsive design avancé** : Adaptation de l'interface complexe sur tous types d'appareils
+- **Génération de PDF** : Développement de génération de document PDF résultat basé sur les configurations sélectionnées
+
+#### Technologies
+
+- **React**
+- **Storybook**
+- **TypeScript**
+- **Formik**
+- **ark-ui**
+- **HTML2Canvas & jsPDF**
+- **Tailwind CSS**
 
 `
