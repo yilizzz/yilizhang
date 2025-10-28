@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useMemo} from "react";
 import { useState } from "react";
 import Image from "next/image";
 import Modal from "react-bootstrap/Modal";
@@ -8,10 +8,6 @@ import { useContext } from "react";
 import { LanguageContext } from "./LanguageContext";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
 
 // import required modules
 import { Pagination,Navigation, Autoplay,EffectCoverflow } from "swiper/modules";
@@ -24,17 +20,17 @@ export const Projects = ({ title, cards }) => {
     ...new Set(cards.map((project) => project.category)),
   ];
 
-  let filteredProjects = [];
-  if (selectedCategory === "Tous" || selectedCategory === "All") {
-    filteredProjects = cards;
-  } else {
-    filteredProjects = cards.filter(
-      (project) => project.category === selectedCategory
-    );
-  }
-  // const filteredProjects = selectedCategory === allCategory
-  //   ? cards
-  //   : cards.filter(project => project.category === selectedCategory);
+    const swiperKey = selectedCategory;
+
+    let filteredProjects = useMemo(() => {
+        if (selectedCategory === "Tous" || selectedCategory === "All") {
+            return cards;
+        } else {
+            return cards.filter(
+                (project) => project.category === selectedCategory
+            );
+        }
+    }, [cards, selectedCategory]);
   return (
     <div id="projects" className="bg-primary py-5 px-5">
       <div className="container">
@@ -53,10 +49,8 @@ export const Projects = ({ title, cards }) => {
         </div>
 
         <div>
-          {/* {filteredProjects.map((value, index) => (
-            <Card key={index} title={value.title} image={value.image} type={value.type}/>
-          ))} */}
           <Swiper
+              key={swiperKey}
             slidesPerView={"auto"}
             loop={true}
             pagination={{

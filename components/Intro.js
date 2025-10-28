@@ -1,12 +1,11 @@
 import React from 'react';
-import getConfig from 'next/config';
 import Link from 'next/link';
 import Stamp from './Stamp';
 import Introtext from './Introtext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons'
 import ReactMarkdown from 'react-markdown';
-const { publicRuntimeConfig } = getConfig();
+
 
 export const Intro = ({ title, description, buttons }) => {
 

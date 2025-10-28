@@ -1,4 +1,7 @@
+
 import '../styles/custom.global.scss';
+import "swiper/css";
+import "swiper/css/pagination";
 import { useState } from 'react';
 import {LanguageContext} from '../components/LanguageContext';
 
