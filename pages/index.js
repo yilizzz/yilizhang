@@ -23,7 +23,7 @@ import {
   presentation_en,
 } from "../config/config_en";
 import { MyHead } from "../components/MyHead";
-import { ChatDrawer } from "@/components/ChatDrawer";
+import { Chat } from "@/components/Chat";
 import { LanguageContext } from "../components/LanguageContext";
 import LangOption from "../components/LangOption";
 import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
@@ -95,7 +95,7 @@ export default function Home() {
             <Panel defaultSize={30} minSize={20} maxSize={50}>
               <div>
                 <button onClick={() => setIsOpen(false)}>✕ 关闭</button>
-                <h2>调试面板</h2>
+                <Chat />
               </div>
             </Panel>
           </>
