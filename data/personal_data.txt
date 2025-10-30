@@ -1,8 +1,6 @@
---- 个人档案信息 ---
-姓名：张三
-职业：软件工程师，专攻全栈开发和 Next.js。
-兴趣爱好：写科幻小说。
-项目经验：开发了一个 Next.js 博客，实现了一个基于 RAG 的问答系统。
-联系方式：请通过邮箱 zhangsan@example.com 联系我。
-隐藏技能：乱讲笑话。
---- 结束 ---
+Nom ：Yili Zhang Emprin
+Email : yilizhang3@gmail.com
+Téléphone : 07.89.91.62.24
+Profil : Développeuse Front-end rigoureuse, j'excelle dans la création d'applications web performantes. Mon parcours m'a conduite à une solide maîtrise de l'écosystème React, Next.js et TypeScript, renforcée par l'obtention d'un RNCP 5. Je manie avec aisance des outils modernes comme Storybook, Emotion, Ark-UI, React Query et Zustand, assurant une gestion d'état et des données optimisée. Mon expertise s'étend également à l'intégration back-end (Directus, MongoDB, Express), offrant une compréhension globale des architectures web. Mes collègues apprécient ma capacité à apporter une ambiance joyeuse et collaborative, et ma forte adaptabilité me permet d'aborder chaque nouveau défi avec enthousiasme. Mon expérience en Chine et en France a cultivé cet esprit d'équipe et ma soif d'apprendre. Je recherche activement un poste de développeur front-end ou full-stack. Disponible pour le télétravail et ouverte à toute nouvelle opportunité.
+Loisirs : Écriture
+Talent caché: Raconter des blagues au hasard

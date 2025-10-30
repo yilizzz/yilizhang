@@ -6,7 +6,6 @@ const ai = new GoogleGenAI({});
 const DATA_FILE_PATH = path.join(process.cwd(), "data", "personal_data.txt");
 
 export default async function handler(req, res) {
-  console.log("API ROUTE HIT!");
   if (req.method !== "POST") {
     return res.status(405).end();
   }

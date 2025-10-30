@@ -13,7 +13,11 @@ $card-border-radius: 15px;
 @import "bootstrap/scss/maps";
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/bootstrap";
-
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -205,4 +209,7 @@ header{
   .form-select {
     margin-top: 4rem !important;
   }
+}
+.hidden-btn {
+  display: none;
 }

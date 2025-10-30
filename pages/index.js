@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { useContext } from "react";
 import { Nav } from "../components/Navbar";
 import { Intro, Presentation, About } from "../components/Intro";
@@ -25,7 +25,6 @@ import {
 import { MyHead } from "../components/MyHead";
 import { Chat } from "@/components/Chat";
 import { LanguageContext } from "../components/LanguageContext";
-import LangOption from "../components/LangOption";
 import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
 export default function Home() {
   const { language } = useContext(LanguageContext);
@@ -52,15 +51,14 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="position-relative">
-      <PanelGroup direction="horizontal">
-        <Panel defaultSize={100}>
+      <PanelGroup direction="horizontal" style={{ height: "100vh" }}>
+        <Panel defaultSize={100} style={{ height: "100%", overflowY: "auto" }}>
           <Fragment>
             <MyHead seo={content.SEO} />
             <Nav
               title={content.navigation.name}
               links={content.navigation.links}
             />
-            <LangOption />
             <Intro
               title={content.intro.title}
               description={content.intro.description}
@@ -81,8 +79,10 @@ export default function Home() {
               buttons={content.contact.buttons}
             />
             <button
+              id="dynamicBtn"
               className={"position-fixed top-50 end-0 translate-middle-y"}
               onClick={() => setIsOpen(true)}
+              style={{ display: isOpen ? "none" : "block" }}
             >
               button
             </button>
@@ -93,8 +93,13 @@ export default function Home() {
           <>
             <PanelResizeHandle />
             <Panel defaultSize={30} minSize={20} maxSize={50}>
-              <div>
-                <button onClick={() => setIsOpen(false)}>✕ 关闭</button>
+              <div className="d-flex justify-content-center w-100 h-100 p-3">
+                <button
+                  className={"position-fixed top-0 end-0"}
+                  onClick={() => setIsOpen(false)}
+                >
+                  ✕
+                </button>
                 <Chat />
               </div>
             </Panel>
