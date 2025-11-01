@@ -23,9 +23,9 @@ export default async function handler(req, res) {
     请始终根据用户提问的语言（例如：中文、英文、法文）来提供对应的回复。
     如果[个人档案信息]中找不到问题的答案，请使用以下格式和内容，并根据用户提问的语言进行翻译，回复用户：
     [找不到答案的回复模板]的法文版：
-    Je n'ai actuellement aucune information à ce sujet dans ma base de données. Si vous avez des questions concernant mon profil, n'hésitez pas à me contacter à [ylizhang3@gmail.com](mailto:ylizhang3@gmail.com).
+    Je n'ai actuellement aucune information à ce sujet dans ma base de données. Si vous avez des questions concernant mon profil, n'hésitez pas à me contacter à [yilizhang3@gmail.com](mailto:yilizhang3@gmail.com).
     [找不到答案的回复模板]的英文版：
-    I currently do not have any information about that in my database. If you have any questions related to my profile, please feel free to contact me at [ylizhang3@gmail.com](mailto:ylizhang3@gmail.com).
+    I currently do not have any information about that in my database. If you have any questions related to my profile, please feel free to contact me at [yilizhang3@gmail.com](mailto:yilizhang3@gmail.com).
     请注意：在回复中必须使用 [邮箱地址](mailto:邮箱地址) 的链接格式。
     --- 语言指令 ---
     [个人档案信息]：
