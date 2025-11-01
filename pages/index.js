@@ -1,18 +1,10 @@
-import React, { Fragment, useEffect, useState } from "react";
-import { useContext } from "react";
-import { Nav } from "../components/Navbar";
-import { Intro, Presentation, About } from "../components/Intro";
-import { Projects } from "../components/Projects";
-import { Footer, Contact } from "../components/Footer";
-import {
-  about,
-  contact,
-  intro,
-  navigation,
-  projects,
-  SEO,
-  presentation,
-} from "../config/config";
+import React, { Fragment, useEffect, useState } from 'react';
+import { useContext } from 'react';
+import { Nav } from '../components/Navbar';
+import { Intro, Presentation, About } from '../components/Intro';
+import { Projects } from '../components/Projects';
+import { Footer, Contact } from '../components/Footer';
+import { about, contact, intro, navigation, projects, SEO, presentation } from '../config/config';
 import {
   about_en,
   contact_en,
@@ -21,15 +13,18 @@ import {
   projects_en,
   SEO_en,
   presentation_en,
-} from "../config/config_en";
-import { MyHead } from "../components/MyHead";
-import { Chat } from "@/components/Chat";
-import { LanguageContext } from "../components/LanguageContext";
-import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
+} from '../config/config_en';
+import { MyHead } from '../components/MyHead';
+import { Chat } from '@/components/Chat';
+import { LanguageContext } from '../components/LanguageContext';
+import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
+import Image from 'next/image';
+import p from '../assets/image/entry.png';
+import { motion } from 'framer-motion';
 export default function Home() {
   const { language } = useContext(LanguageContext);
   const content =
-    language === "en"
+    language === 'en'
       ? {
           about: about_en,
           contact: contact_en,
@@ -51,14 +46,11 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="position-relative">
-      <PanelGroup direction="horizontal" style={{ height: "100vh" }}>
-        <Panel defaultSize={100} style={{ height: "100%", overflowY: "auto" }}>
+      <PanelGroup direction="horizontal" style={{ height: '100vh' }}>
+        <Panel defaultSize={100} style={{ height: '100%', overflowY: 'auto' }}>
           <Fragment>
             <MyHead seo={content.SEO} />
-            <Nav
-              title={content.navigation.name}
-              links={content.navigation.links}
-            />
+            <Nav title={content.navigation.name} links={content.navigation.links} />
             <Intro
               title={content.intro.title}
               description={content.intro.description}
@@ -68,10 +60,7 @@ export default function Home() {
               title={content.presentation.title}
               description={content.presentation.description}
             />
-            <Projects
-              title={content.projects.title}
-              cards={content.projects.cards}
-            />
+            <Projects title={content.projects.title} cards={content.projects.cards} />
             <About title={content.about.title} cards={content.about.cards} />
             <Contact
               title={content.contact.title}
@@ -80,11 +69,24 @@ export default function Home() {
             />
             <button
               id="dynamicBtn"
-              className={"position-fixed top-50 end-0 translate-middle-y"}
+              className={'position-fixed top-50 end-0 translate-middle-y border-0 bg-transparent '}
               onClick={() => setIsOpen(true)}
-              style={{ display: isOpen ? "none" : "block" }}
+              style={{ display: isOpen ? 'none' : 'block' }}
             >
-              button
+              <motion.div
+                initial={{ rotate: 0 }}
+                whileHover={{
+                  x: -25,
+                  rotate: [0, -45, 0],
+                  scale: 1.2,
+                }}
+                transition={{
+                  duration: 1,
+                  times: [0, 0.5, 1],
+                }}
+              >
+                <Image src={p.src} alt={'chatbot'} width={100} height={100} />
+              </motion.div>
             </button>
             <Footer />
           </Fragment>
@@ -94,10 +96,7 @@ export default function Home() {
             <PanelResizeHandle />
             <Panel defaultSize={30} minSize={20} maxSize={50}>
               <div className="d-flex justify-content-center w-100 h-100 p-3">
-                <button
-                  className={"position-fixed top-0 end-0"}
-                  onClick={() => setIsOpen(false)}
-                >
+                <button className={'position-fixed top-0 end-0'} onClick={() => setIsOpen(false)}>
                   ✕
                 </button>
                 <Chat />
