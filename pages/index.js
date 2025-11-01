@@ -21,6 +21,7 @@ import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 import Image from 'next/image';
 import p from '../assets/image/entry.png';
 import { motion } from 'framer-motion';
+import useResponsivePanelSize from '@/hooks/useResponsivePanelSize';
 export default function Home() {
   const { language } = useContext(LanguageContext);
   const content =
@@ -44,6 +45,15 @@ export default function Home() {
           presentation,
         };
   const [isOpen, setIsOpen] = useState(false);
+  const DEFAULT_DESKTOP_WIDTH = 30;
+  const MOBILE_RIGHT_WIDTH = 80;
+  const isMobile = useResponsivePanelSize();
+
+  const rightPanelSize = isMobile ? MOBILE_RIGHT_WIDTH : DEFAULT_DESKTOP_WIDTH;
+  const leftPanelSize = 100 - rightPanelSize; // 自动计算左侧宽度
+
+  const minSizeRight = isMobile ? MOBILE_RIGHT_WIDTH : 20;
+  const maxSizeRight = isMobile ? MOBILE_RIGHT_WIDTH : 50;
   return (
     <div className="position-relative">
       <PanelGroup direction="horizontal" style={{ height: '100vh' }}>
@@ -94,7 +104,7 @@ export default function Home() {
         {isOpen && (
           <>
             <PanelResizeHandle />
-            <Panel defaultSize={30} minSize={20} maxSize={50}>
+            <Panel defaultSize={rightPanelSize} minSize={minSizeRight} maxSize={maxSizeRight}>
               <div className="d-flex justify-content-center w-100 h-100 p-3">
                 <button className={'position-fixed top-0 end-0'} onClick={() => setIsOpen(false)}>
                   ✕
