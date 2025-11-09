@@ -39,3 +39,5 @@ next-env.d.ts
 *.iws
 *.iml
 *.ipr
+
+.prettierrc
