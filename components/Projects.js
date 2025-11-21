@@ -11,8 +11,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // import required modules
 import { Pagination, Navigation, Autoplay, EffectCoverflow } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
+
 export const Projects = ({ title, cards }) => {
   const { language } = useContext(LanguageContext);
   const allCategory = language === 'en' ? 'All' : 'Tous';
@@ -51,9 +50,7 @@ export const Projects = ({ title, cards }) => {
             key={swiperKey}
             slidesPerView={'auto'}
             loop={enableLoop}
-            allowTouchMove={true}
-            preventInteractionOnTransition={false}
-            watchSlidesProgress={true}
+            navigation={true}
             pagination={{
               type: 'fraction',
               clickable: true,
@@ -69,23 +66,14 @@ export const Projects = ({ title, cards }) => {
                 );
               },
             }}
-            navigation={true}
             autoplay={{
               delay: 4500,
               disableOnInteraction: true,
             }}
             modules={[Pagination, Navigation, Autoplay, EffectCoverflow]}
-            className="!overflow-visible w-full"
             effect={'coverflow'}
-            grabCursor={false}
             centeredSlides={true}
             speed={600}
-            observer={true}
-            observeParents={true}
-            watchOverflow={true}
-            watchSlidesVisibility={true}
-            updateOnWindowResize={true}
-            touchStartPreventDefault={false}
             coverflowEffect={{
               rotate: 20,
               stretch: 0,
@@ -94,6 +82,10 @@ export const Projects = ({ title, cards }) => {
               slideShadows: false,
               scale: 0.95,
             }}
+            className="!overflow-visible w-full"
+            grabCursor={false}
+            watchOverflow={true}
+            touchStartPreventDefault={false}
           >
             {filteredProjects.map((value, index) => (
               <SwiperSlide
