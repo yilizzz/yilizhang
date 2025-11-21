@@ -130,12 +130,12 @@ export const projects = {
   title: 'Projets',
   cards: [
     {
-      type: 'Puroak : Page de recherche de produits multi-conditions',
+      type: 'Outil de recherche de produits multi-conditions',
       category: 'Frontend',
-      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/puroak3.webp',
-      title: 'Configurateur Puroak',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/puroak1.webp',
+      title: 'Configurateur Produits',
       description:
-        "Un outil de configuration interactif pour les produits Puroak qui permet aux utilisateurs de : parcourer les différentes options et sélectionner différentes dimensions pour identifier les produits; une fois la configuration terminée, l'outil peut générer un PDF récapitulatif détaillé.",
+        "Un outil de configuration interactif pour les produits industriels qui permet aux utilisateurs de : parcourer les différentes options et sélectionner différentes dimensions pour identifier les produits; une fois la configuration terminée, l'outil peut générer un PDF récapitulatif détaillé.",
       demo: 'https://configurateur.puroak.fr/',
       techniques: [
         'React',
@@ -147,44 +147,44 @@ export const projects = {
         'Tailwind CSS, Emotion (CSS & Styled)',
       ],
       pictures: [
-        'https://projects-image.s3.eu-west-3.amazonaws.com/puroak1.PNG',
-        'https://projects-image.s3.eu-west-3.amazonaws.com/puroak2.PNG',
-        'https://projects-image.s3.eu-west-3.amazonaws.com/puroak3.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/puroak1.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/puroak2.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/puroak3-2025.webp',
       ],
     },
     {
-      type: "Groupe AGP : Site Web de l'entreprise",
+      type: 'Site Vitrine B2B',
       category: 'Frontend',
-      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/agp1.webp',
-      title: 'Website Groupe AGP',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/agp1-2025.webp',
+      title: 'Site Vitrine B2B',
       description:
-        "Le frontend du site web de Groupe AGP est centrée sur la présentation de l'information et de l'image de marque. Au-delà des informations statiques, le site web propose divers éléments interactifs pour améliorer l'expérience utilisateur et faciliter l'engagement : navigation, formulaires, contenu dynamique et responsive design.",
+        "Le frontend du site web est centrée sur la présentation de l'information et de l'image de marque. Au-delà des informations statiques, le site web propose divers éléments interactifs pour améliorer l'expérience utilisateur et faciliter l'engagement : navigation, formulaires, contenu dynamique et responsive design.",
       demo: 'https://groupe-agp.com/',
       techniques: ['Nextjs', 'TypeScript', 'Swiper', 'React Query', 'formik', 'next-sitemap'],
       pictures: [
-        'https://projects-image.s3.eu-west-3.amazonaws.com/agp1.webp',
-        'https://projects-image.s3.eu-west-3.amazonaws.com/agp2.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/agp1-2025.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/agp2-2025.webp',
       ],
     },
     {
-      type: 'Economus : Site Web de réduction locaux',
+      type: 'Site Coupons & Offres Locales',
       category: 'Frontend',
-      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/economus1.webp',
-      title: 'Website Economus',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/eco1.webp',
+      title: 'Site Coupons & Offres Locales',
       description:
-        'Le site web Economus offre une expérience dynamique et conviviale pour la découverte de réductions locales. Il est conçu pour afficher de manière proéminente les informations essentielles sur les remises et les détails de tous les commerces partenaires. Le site propose également des affichages de contenu dynamiques attrayants, paypal payment et intègre Google Maps pour des fonctionnalités de localisation.',
+        'Le site web offre une expérience dynamique et conviviale pour la découverte de réductions locales. Il est conçu pour afficher de manière proéminente les informations essentielles sur les remises et les détails de tous les commerces partenaires. Le site propose également des affichages de contenu dynamiques attrayants, paypal payment et intègre Google Maps pour des fonctionnalités de localisation.',
       demo: 'https://www.economus.fr/',
       techniques: ['Nextjs', 'TypeScript', 'Swiper', 'React Query', '@vis.gl/react-google-maps'],
       pictures: [
-        'https://projects-image.s3.eu-west-3.amazonaws.com/economus1.webp',
-        'https://projects-image.s3.eu-west-3.amazonaws.com/economus2.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/eco1.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/eco2.webp',
       ],
     },
     {
-      type: "Namkin : Site Web de l'entreprise",
+      type: 'Site Vitrine B2B',
       category: 'Frontend',
       image: 'https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp',
-      title: 'Website Namkin',
+      title: 'Site Vitrine Namkin',
       description:
         "Le site web Namkin est une plateforme engageante et informative, capable de présenter efficacement à la fois les informations statiques de l'entreprise et le contenu dynamique. Il s'appuie sur une connexion robuste avec Directus en tant que CMS, une intégration qui permet au frontend de récupérer et d'afficher dynamiquement une vaste gamme de contenus. Une fonctionnalité interactive clé est le mécanisme de déverrouillage de contenu basé sur un formulaire, qui permet aux utilisateurs d'accéder à du contenu exclusif en soumettant leurs informations.",
       demo: 'https://namkin.fr/',

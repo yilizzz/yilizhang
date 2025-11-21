@@ -9,12 +9,12 @@ Expérience Professionnelle (Professional Experience) :
 2. Développeuse Web Stagiaire à Openclassrooms, Troyes, France (2023): Durant ce stage, j'ai développé des compétences full-stack, construisant des sites web dynamiques et responsives avec HTML, CSS, JavaScript et React pour le front-end, et développant des API avec NodeJS, Express et MongoDB pour le back-end.
 3.Expériences Antérieures (2008-2015): J'ai une expérience antérieure en service après-vente pour un logiciel SAAS au Zhuzhe Information System (Pékin, Chine, 2015) , et j'ai travaillé comme Programmeuse chez Yokogawa système d'information (Dalian, Chine, 2008-2009) sur le développement d'un système d'usine en C++ et Socket.
 Projets Réalisés (Key Projects):
-1. Site Economus: Développé avec Next.js et TypeScript, ce projet a nécessité l'utilisation de l'API Google Maps pour afficher des points de vente. J'ai construit un front-end dynamique capable de gérer une navigation complexe et j'ai optimisé une liste de données volumineuses pour garantir une expérience utilisateur fluide.
-2. Site Group AGP: Un front-end dynamique et responsive utilisant Next.js et React Query. J'ai mis en œuvre React Query pour gérer les données CMS et j'ai développé le formulaire de contact.
-3. Site Namkin: Ce projet a impliqué l'établissement d'une connexion API REST robuste et sécurisée avec Directus CMS. J'ai développé un mécanisme de déverrouillage de contenu basé sur la soumission d'un formulaire et réalisé un front-end responsive avec implémentation de sitemap et metadata pour améliorer le SEO.
-4. Configurateur Puroak: Un projet basé sur React et TypeScript utilisant Formik pour la validation et la gestion des options. Il impliquait l'intégration de HTML2Canvas et jsPDF pour générer une sortie format PDF A4 normalisé du contenu dynamique.
+1. Site Coupons & Offres Locales: Développé avec Next.js et TypeScript, ce projet a nécessité l'utilisation de l'API Google Maps pour afficher des points de vente. J'ai construit un front-end dynamique capable de gérer une navigation complexe et j'ai optimisé une liste de données volumineuses pour garantir une expérience utilisateur fluide.
+2. Site Vitrine: Un front-end dynamique et responsive utilisant Next.js et React Query. J'ai mis en œuvre React Query pour gérer les données CMS et j'ai développé le formulaire de contact.
+3. Site B2B: Ce projet a impliqué l'établissement d'une connexion API REST robuste et sécurisée avec Directus CMS. J'ai développé un mécanisme de déverrouillage de contenu basé sur la soumission d'un formulaire et réalisé un front-end responsive avec implémentation de sitemap et metadata pour améliorer le SEO.
+4. Configurateur de Produit: Un projet basé sur React et TypeScript utilisant Formik pour la validation et la gestion des options. Il impliquait l'intégration de HTML2Canvas et jsPDF pour générer une sortie format PDF A4 normalisé du contenu dynamique.
 Formation (Education) :
-Développeur Intégrateur Web (RNCP 5): Openclassrooms, Coursera, freeCodeCamp, Troyes (2022-2023).
+Développeur Intégrateur Web (RNCP 5), formation professionnalisante, validée par la réalisation de 9 projets concrets : Openclassrooms(2022-2023).
 Formation de Français (DELF B1): Yschool, Troyes (2018-2019).
 Technologie d'application informatique (Bac+5): L'Institut de Technologie d'Harbin, Chine (2005-2008).
 Langues & Qualités (Languages and Soft Skills) :

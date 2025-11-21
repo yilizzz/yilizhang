@@ -79,9 +79,9 @@ export default function Home() {
             />
             <button
               id="dynamicBtn"
-              className={'position-fixed top-50 end-0 translate-middle-y border-0 bg-transparent '}
+              className={'position-fixed top-50 end-0 translate-middle-y border-0 bg-transparent'}
               onClick={() => setIsOpen(true)}
-              style={{ display: isOpen ? 'none' : 'block' }}
+              style={{ display: isOpen ? 'none' : 'block', zIndex: '100 !important' }}
             >
               <motion.div
                 initial={{ rotate: 0 }}

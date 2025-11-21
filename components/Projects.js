@@ -11,6 +11,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // import required modules
 import { Pagination, Navigation, Autoplay, EffectCoverflow } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
 export const Projects = ({ title, cards }) => {
   const { language } = useContext(LanguageContext);
   const allCategory = language === 'en' ? 'All' : 'Tous';
@@ -46,13 +48,6 @@ export const Projects = ({ title, cards }) => {
 
         <div>
           <Swiper
-            onSlideChange={(swiper) => {
-              console.log('Active index:', swiper.activeIndex);
-              console.log('Slides count:', swiper.slides.length);
-            }}
-            onInit={(swiper) => {
-              console.log('Swiper initialized with', swiper.slides.length, 'slides');
-            }}
             key={swiperKey}
             slidesPerView={'auto'}
             loop={enableLoop}
@@ -101,7 +96,11 @@ export const Projects = ({ title, cards }) => {
             }}
           >
             {filteredProjects.map((value, index) => (
-              <SwiperSlide key={index} className="w-auto mr-5 mb-5">
+              <SwiperSlide
+                key={index}
+                className="mb-5 mx-2"
+                style={{ width: '350px', height: '280px' }}
+              >
                 <Card title={value.title} image={value.image} type={value.type} />
               </SwiperSlide>
             ))}
@@ -112,98 +111,45 @@ export const Projects = ({ title, cards }) => {
   );
 };
 
-export const Card = ({ image, title, type }) => {
+export const Card = ({ image, title, type, className }) => {
   const [show, setShow] = React.useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  // Define which types should show the "new" label
-  const newTypes = [
-    // French types
-    'Puroak : Page de recherche de produits multi-conditions',
-    "Groupe AGP : Site Web de l'entreprise",
-    'Economus : Site Web de réduction locaux',
-    "Namkin : Site Web de l'entreprise",
-    // English types
-    'Puroak: Multi-condition product search page',
-    'AGP Group: Company Website',
-    'Economus: Local discount website',
-    'Namkin : Company Website',
-  ];
-
-  // Check if the current type should show the "new" label
-  const showNewLabel = newTypes.includes(type);
-
   return (
-    <div
-      className="card py-3 px-3 mx-sm-4 my-4 !w-[23rem]"
-      onClick={handleShow}
-      style={{
-        cursor: 'pointer',
-        position: 'relative',
-        zIndex: 1,
-        transition: 'transform 0.2s ease',
-      }}
-      role="button"
-    >
-      {/* "new" 标签直接放在卡片层级 */}
-      {showNewLabel && (
-        <span
-          style={{
-            color: '#a6522c',
-            fontSize: '0.85rem',
-            fontWeight: 'bold',
-            position: 'absolute',
-            top: '12px',
-            left: '12px',
-            padding: '2px 6px',
-            borderRadius: '8px',
-            border: '2px solid #a6522c',
-            background: 'rgba(255, 255, 255, 0.9)',
-            boxShadow: '0 2px 4px rgba(166, 82, 44, 0.3)',
-            animation: 'bounce-animation 2s infinite',
-            zIndex: 10,
-          }}
-        >
-          new
-        </span>
-      )}
+    <>
+      <div
+        className={`card h-100 border-0 shadow-sm ${className || ''}`}
+        onClick={handleShow}
+        style={{
+          cursor: 'pointer',
+          overflow: 'hidden',
+          transition: 'transform 0.2s ease',
+        }}
+        role="button"
+      >
+        <div className="position-relative w-100" style={{ height: '250px' }}>
+          <Image
+            src={image}
+            alt={title}
+            fill
+            style={{ objectFit: 'cover' }}
+            sizes="(max-width: 768px) 100vw, 400px"
+          />
+        </div>
 
-      <div className="d-flex flex-column justify-content-center">
-        <Image
-          className="img-fluid my-3 card-image"
-          width="400"
-          height="250"
-          object-fit="cover"
-          src={image}
-          alt={title}
-        />
-
-        <div
-          className="fw-bold"
-          style={{
-            maxWidth: '400px', // 限制最大宽度
-            overflow: 'hidden', // 隐藏溢出
-            textOverflow: 'ellipsis', // 显示省略号
-            whiteSpace: 'nowrap', // 不换行
-          }}
-        >
-          {type}
+        <div className="card-body d-flex flex-column justify-content-center flex-grow-1 p-3">
+          <div className="fw-bold text-truncate" style={{ maxWidth: '100%' }}>
+            {type}
+          </div>
         </div>
       </div>
-      <Modal
-        size="lg"
-        show={show}
-        onHide={handleClose}
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
-        onClick={(e) => e.stopPropagation()} // 阻止Modal内的点击事件冒泡
-      >
+      <Modal size="lg" show={show} onHide={handleClose} centered>
         <div onClick={(e) => e.stopPropagation()}>
           <ProjectModal title={title}></ProjectModal>
         </div>
       </Modal>
-    </div>
+    </>
   );
 };
