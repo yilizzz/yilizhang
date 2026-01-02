@@ -54,10 +54,9 @@ export const intro_en = {
 export const presentation_en = {
   title: 'Who am I',
   description: [
-    'A **rigorous and versatile Front-end Developer**, I excel in creating high-performance web applications. My journey led me to a solid mastery of the **React, Next.js, and TypeScript** ecosystem, further strengthened by earning a RNCP 5.',
-    'I confidently wield modern tools like **Storybook, Emotion, Ark-UI, React Query, and Zustand**, ensuring optimized state and data management. My expertise also extends to **back-end** integration (Directus, MongoDB, Express), providing a comprehensive understanding of web architectures.',
-    'My colleagues appreciate my ability to foster a **joyful and collaborative atmosphere**, and my **strong adaptability** allows me to approach every new challenge with enthusiasm. My experience in China and France has cultivated this team spirit and my eagerness to learn.',
-    'I am actively seeking a **front-end or full-stack** developer position. I am available for remote work and open to all new opportunities.',
+    '**Full-stack Developer (React / Node.js)**, I design innovative and high-performance web applications. My expertise is based on advanced mastery of the **React, Next.js and TypeScript** ecosystem, with a proven ability to orchestrate complete architectures : from database modelling (PostgreSQL, MongoDB) to creating high-performance REST APIs (Directus, Node.js). I manage CRUD operations, data security and workflow automation through CI/CD pipelines (GitHub Actions) with precision. My projects include technical achievements such as AI integration, data visualisation with D3.js and deployment of PWA solutions. ',
+    'I skilfully handle tools such as **React Query, Zustand and Ark-UI** to ensure pixel-perfect and maintainable interfaces. My multicultural background has shaped my **strong adaptability** and a collaborative spirit that brings positive energy to every team. ',
+    'I am actively seeking a **Full-stack or Front-end developer** position, available immediately.',
   ],
 };
 
@@ -124,6 +123,28 @@ export const about_en = {
 export const projects_en = {
   title: 'Projects',
   cards: [
+    {
+      type: `What if : Science fiction inspiration app (AI and data visualisation)`,
+      category: 'Fullstack',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/whatif2.png',
+      title: 'What if',
+      description:
+        'Assistant application for science fiction writers: use AI to analyse scientific news and generate inspiration, includes a plan structuring feature.',
+      demo: 'https://github.com/yilizzz/outliner',
+      techniques: [
+        'React',
+        'TypeScript',
+        'D3.js',
+        'vite-plugin-pwa',
+        'Directus',
+        'Capacitor',
+        'Tailwind CSS',
+      ],
+      pictures: [
+        'https://projects-image.s3.eu-west-3.amazonaws.com/whatif1.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/whatif2.png',
+      ],
+    },
     {
       type: 'Multi-condition product search page',
       category: 'Frontend',

@@ -54,10 +54,9 @@ export const intro = {
 export const presentation = {
   title: 'Qui suis-je',
   description: [
-    "**Développeuse Front-end rigoureuse et polyvalente**, j'excelle dans la création d'applications web performantes. Mon parcours m'a conduite à une solide maîtrise de l'écosystème **React, Next.js et TypeScript**, renforcée par l'obtention d'un RNCP 5.",
-    "Je manie avec aisance des outils modernes comme **Storybook, Emotion, Ark-UI, React Query et Zustand**, assurant une gestion d'état et des données optimisée. Mon expertise s'étend également à l'intégration **back-end** (Directus, MongoDB, Express), offrant une compréhension globale des architectures web.",
-    "Mes collègues apprécient ma capacité à apporter une **ambiance joyeuse et collaborative**, et ma **forte adaptabilité** me permet d'aborder chaque nouveau défi avec enthousiasme. Mon expérience en Chine et en France a cultivé cet esprit d'équipe et ma soif d'apprendre.",
-    'Je recherche activement un poste de développeur **front-end ou full-stack**. Disponible pour le télétravail et ouverte à toute nouvelle opportunité.',
+    "**Développeuse Full-stack (React / Node.js)**, je conçois des applications web innovantes et performantes. Mon expertise repose sur une maîtrise avancée de l'écosystème **React, Next.js et TypeScript**, avec une capacité démontrée à orchestrer des architectures complètes : de la modélisation de bases de données (PostgreSQL, MongoDB) à la création d'APIs REST performantes (Directus, Node.js). Je gère avec précision les opérations CRUD, la sécurisation des données et l'automatisation de workflows via des pipelines CI/CD (GitHub Actions). Mes projets incluent des réalisations techniques telles que l'intégration d'IA, la visualisation de données avec D3.js et le déploiement de solutions PWA.",
+    'Je manie avec agilité des outils comme **React Query, Zustand et Ark-UI** pour garantir des interfaces pixel-perfect et maintenables. Mon parcours multiculturel a forgé ma **forte adaptabilité** et un esprit collaboratif qui apporte une énergie positive à chaque équipe.',
+    'Je recherche activement un poste de **développeur Full-stack ou Front-end**, disponible immédiatement.',
   ],
 };
 
@@ -129,6 +128,28 @@ export const about = {
 export const projects = {
   title: 'Projets',
   cards: [
+    {
+      type: `What if : Application d'inspiration de science-fiction (IA & Data Viz)`,
+      category: 'Fullstack',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/whatif2.png',
+      title: 'What if',
+      description:
+        "Application d'assistant pour écrivains de science-fiction : utiliser l'IA pour analyser les actualités scientifiques et générer de l'inspiration, inclut de fonction structuration de plan.",
+      demo: 'https://github.com/yilizzz/outliner',
+      techniques: [
+        'React',
+        'TypeScript',
+        'D3.js',
+        'vite-plugin-pwa',
+        'Directus',
+        'Capacitor',
+        'Tailwind CSS',
+      ],
+      pictures: [
+        'https://projects-image.s3.eu-west-3.amazonaws.com/whatif1.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/whatif2.png',
+      ],
+    },
     {
       type: 'Outil de recherche de produits multi-conditions',
       category: 'Frontend',
