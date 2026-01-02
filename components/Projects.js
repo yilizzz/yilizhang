@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import ProjectModal from './ProjectModal';
 import { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,16 +20,26 @@ export const Projects = ({ title, cards }) => {
   const [selectedCategory, setSelectedCategory] = useState('Tous');
   const categories = [allCategory, ...new Set(cards.map((project) => project.category))];
 
-  const swiperKey = selectedCategory;
-
   let filteredProjects = useMemo(() => {
-    if (selectedCategory === 'Tous' || selectedCategory === 'All') {
-      return cards;
-    } else {
-      return cards.filter((project) => project.category === selectedCategory);
-    }
+    let projects =
+      selectedCategory === 'Tous' || selectedCategory === 'All'
+        ? [...cards]
+        : cards.filter((project) => project.category === selectedCategory);
+    return projects.sort((a, b) => {
+      return b.time.localeCompare(a.time);
+    });
   }, [cards, selectedCategory]);
-  const enableLoop = filteredProjects.length >= 3;
+
+  const navButtonStyle = {
+    width: '50px',
+    height: '50px',
+    zIndex: 10,
+    cursor: 'pointer',
+    background: '#2f465b',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  };
   return (
     <div id="projects" className="bg-primary py-5 px-5">
       <div className="container">
@@ -45,12 +57,32 @@ export const Projects = ({ title, cards }) => {
           ))}
         </div>
 
-        <div>
+        <div className="position-relative px-md-5 px-3">
+          <div
+            className="swiper-prev-custom position-absolute top-50 start-0 translate-middle-y ms-2 rounded-circle"
+            style={navButtonStyle}
+          >
+            <FontAwesomeIcon icon={faChevronLeft} size="2x" className="text-secondary" />
+          </div>
+
+          <div
+            className="swiper-next-custom position-absolute top-50 end-0 translate-middle-y me-2 rounded-circle"
+            style={navButtonStyle}
+          >
+            <FontAwesomeIcon icon={faChevronRight} size="2x" className="text-secondary" />
+          </div>
+
           <Swiper
-            key={swiperKey}
+            key={`${selectedCategory}-${filteredProjects.length}`}
+            navigation={{
+              prevEl: '.swiper-prev-custom',
+              nextEl: '.swiper-next-custom',
+            }}
             slidesPerView={'auto'}
-            loop={enableLoop}
-            navigation={true}
+            spaceBetween={16}
+            loop={false}
+            watchSlidesProgress={true}
+            centeredSlides={true}
             pagination={{
               type: 'fraction',
               clickable: true,
@@ -68,32 +100,26 @@ export const Projects = ({ title, cards }) => {
             }}
             autoplay={{
               delay: 4500,
-              disableOnInteraction: true,
+              disableOnInteraction: false,
             }}
             modules={[Pagination, Navigation, Autoplay, EffectCoverflow]}
             effect={'coverflow'}
-            centeredSlides={true}
-            speed={600}
             coverflowEffect={{
               rotate: 20,
               stretch: 0,
               depth: 30,
-              modifier: 1,
+              modifier: 1.5,
               slideShadows: false,
               scale: 0.95,
             }}
             className="!overflow-visible w-full"
             grabCursor={false}
-            watchOverflow={true}
+            watchOverflow={false}
             touchStartPreventDefault={false}
           >
             {filteredProjects.map((value, index) => (
-              <SwiperSlide
-                key={index}
-                className="mb-5 mx-2"
-                style={{ width: '350px', height: '280px' }}
-              >
-                <Card title={value.title} image={value.image} type={value.type} />
+              <SwiperSlide key={index} className="mb-5" style={{ width: '350px', height: '280px' }}>
+                <Card title={value.title} image={value.image} type={value.type} time={value.time} />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -103,12 +129,22 @@ export const Projects = ({ title, cards }) => {
   );
 };
 
-export const Card = ({ image, title, type, className }) => {
+export const Card = ({ image, title, type, className, time }) => {
   const [show, setShow] = React.useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
+  const style = {
+    top: '0',
+    right: '-1px',
+    fontSize: '0.75rem',
+    transform: 'rotate(-15deg)',
+    zIndex: 2,
+    background: '#2f465b',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  };
   return (
     <>
       <div
@@ -131,9 +167,12 @@ export const Card = ({ image, title, type, className }) => {
           />
         </div>
 
-        <div className="card-body d-flex flex-column justify-content-center flex-grow-1 p-3">
+        <div className="card-body d-flex flex-column justify-content-center flex-grow-1 p-3 position-relative">
           <div className="fw-bold text-truncate" style={{ maxWidth: '100%' }}>
             {type}
+          </div>
+          <div className="position-absolute px-2 py-1 text-white small rounded" style={style}>
+            {time.split('-')[0]}
           </div>
         </div>
       </div>

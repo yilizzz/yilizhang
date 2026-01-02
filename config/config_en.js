@@ -144,6 +144,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/whatif1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/whatif2.png',
       ],
+      time: '2025-12',
     },
     {
       type: 'Multi-condition product search page',
@@ -167,6 +168,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/puroak2.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/puroak3-2025.webp',
       ],
+      time: '2024-05',
     },
     {
       type: 'B2B Company Website',
@@ -181,6 +183,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/agp1-2025.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/agp2-2025.webp',
       ],
+      time: '2024-08',
     },
     {
       type: 'Local discount website',
@@ -195,6 +198,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/eco1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/eco2.webp',
       ],
+      time: '2024-10',
     },
     {
       type: 'B2B Company Website',
@@ -210,6 +214,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/namkin2.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/namkin3.webp',
       ],
+      time: '2025-05',
     },
     {
       type: 'Z Service: Online shop',
@@ -225,6 +230,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/order1.jpg',
         'https://projects-image.s3.eu-west-3.amazonaws.com/order2.png',
       ],
+      time: '2024-01',
     },
     {
       type: 'My Rooom: Rental site',
@@ -240,6 +246,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/rooom1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/rooom2.webp',
       ],
+      time: '2023-08',
     },
     {
       type: 'Sniff Jobs: Job posting site',
@@ -254,6 +261,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/jobs1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/jobs2.webp',
       ],
+      time: '2023-07',
     },
     {
       type: 'My Old Grimoire: Book rating site',
@@ -276,6 +284,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/grimoire1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/grimoire2.webp',
       ],
+      time: '2023-06',
     },
     {
       type: 'Kasa : real estate agency',
@@ -290,6 +299,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/kasa1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/kasa2.webp',
       ],
+      time: '2023-05',
     },
     {
       type: 'Blog LabZZZ: Blog management',
@@ -304,6 +314,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/blog1.png',
         'https://projects-image.s3.eu-west-3.amazonaws.com/blog2.png',
       ],
+      time: '2023-04',
     },
     {
       type: 'Sophie Bluel : Portfolio Architect',
@@ -318,6 +329,7 @@ export const projects_en = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/sophie1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/sophie2.webp',
       ],
+      time: '2023-03',
     },
     {
       type: "SEO of a photographer's site",
@@ -335,6 +347,7 @@ export const projects_en = {
         'WAVE Evaluation Tool',
       ],
       pictures: ['https://projects-image.s3.eu-west-3.amazonaws.com/nina1.webp'],
+      time: '2023-02',
     },
     {
       type: 'Booki : Homepage of a Travel agency',
@@ -346,6 +359,7 @@ export const projects_en = {
       demo: 'https://yilizzz.github.io/Booki/',
       techniques: ['HTML', 'CSS', 'Media Query', 'Flexbox'],
       pictures: ['https://projects-image.s3.eu-west-3.amazonaws.com/booki1.webp'],
+      time: '2023-01',
     },
   ],
 };

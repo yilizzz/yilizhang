@@ -149,6 +149,38 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/whatif1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/whatif2.png',
       ],
+      time: '2025-12',
+    },
+    {
+      type: 'Site Vitrine B2B',
+      category: 'Frontend',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp',
+      title: 'Site Vitrine Namkin',
+      description:
+        "Le site web Namkin est une plateforme engageante et informative, capable de présenter efficacement à la fois les informations statiques de l'entreprise et le contenu dynamique. Il s'appuie sur une connexion robuste avec Directus en tant que CMS, une intégration qui permet au frontend de récupérer et d'afficher dynamiquement une vaste gamme de contenus. Une fonctionnalité interactive clé est le mécanisme de déverrouillage de contenu basé sur un formulaire, qui permet aux utilisateurs d'accéder à du contenu exclusif en soumettant leurs informations.",
+      demo: 'https://namkin.fr/',
+      techniques: ['Nextjs', 'TypeScript', 'storybook', 'zustand', 'directus'],
+      pictures: [
+        'https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/namkin2.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/namkin3.webp',
+      ],
+      time: '2025-05',
+    },
+    {
+      type: 'Site Vitrine B2B',
+      category: 'Frontend',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/agp1-2025.webp',
+      title: 'Site Vitrine B2B',
+      description:
+        "Le frontend du site web est centrée sur la présentation de l'information et de l'image de marque. Au-delà des informations statiques, le site web propose divers éléments interactifs pour améliorer l'expérience utilisateur et faciliter l'engagement : navigation, formulaires, contenu dynamique et responsive design.",
+      demo: 'https://groupe-agp.com/',
+      techniques: ['Nextjs', 'TypeScript', 'Swiper', 'React Query', 'formik', 'next-sitemap'],
+      pictures: [
+        'https://projects-image.s3.eu-west-3.amazonaws.com/agp1-2025.webp',
+        'https://projects-image.s3.eu-west-3.amazonaws.com/agp2-2025.webp',
+      ],
+      time: '2024-08',
     },
     {
       type: 'Outil de recherche de produits multi-conditions',
@@ -172,20 +204,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/puroak2.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/puroak3-2025.webp',
       ],
-    },
-    {
-      type: 'Site Vitrine B2B',
-      category: 'Frontend',
-      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/agp1-2025.webp',
-      title: 'Site Vitrine B2B',
-      description:
-        "Le frontend du site web est centrée sur la présentation de l'information et de l'image de marque. Au-delà des informations statiques, le site web propose divers éléments interactifs pour améliorer l'expérience utilisateur et faciliter l'engagement : navigation, formulaires, contenu dynamique et responsive design.",
-      demo: 'https://groupe-agp.com/',
-      techniques: ['Nextjs', 'TypeScript', 'Swiper', 'React Query', 'formik', 'next-sitemap'],
-      pictures: [
-        'https://projects-image.s3.eu-west-3.amazonaws.com/agp1-2025.webp',
-        'https://projects-image.s3.eu-west-3.amazonaws.com/agp2-2025.webp',
-      ],
+      time: '2024-05',
     },
     {
       type: 'Site Coupons & Offres Locales',
@@ -200,22 +219,9 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/eco1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/eco2.webp',
       ],
+      time: '2024-10',
     },
-    {
-      type: 'Site Vitrine B2B',
-      category: 'Frontend',
-      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp',
-      title: 'Site Vitrine Namkin',
-      description:
-        "Le site web Namkin est une plateforme engageante et informative, capable de présenter efficacement à la fois les informations statiques de l'entreprise et le contenu dynamique. Il s'appuie sur une connexion robuste avec Directus en tant que CMS, une intégration qui permet au frontend de récupérer et d'afficher dynamiquement une vaste gamme de contenus. Une fonctionnalité interactive clé est le mécanisme de déverrouillage de contenu basé sur un formulaire, qui permet aux utilisateurs d'accéder à du contenu exclusif en soumettant leurs informations.",
-      demo: 'https://namkin.fr/',
-      techniques: ['Nextjs', 'TypeScript', 'storybook', 'zustand', 'directus'],
-      pictures: [
-        'https://projects-image.s3.eu-west-3.amazonaws.com/namkin1.webp',
-        'https://projects-image.s3.eu-west-3.amazonaws.com/namkin2.webp',
-        'https://projects-image.s3.eu-west-3.amazonaws.com/namkin3.webp',
-      ],
-    },
+
     {
       type: 'Z Service : Site de commande en ligne',
       category: 'Fullstack',
@@ -237,6 +243,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/order1.jpg',
         'https://projects-image.s3.eu-west-3.amazonaws.com/order2.png',
       ],
+      time: '2024-01',
     },
     {
       type: 'My Rooom : Site de location',
@@ -252,6 +259,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/rooom1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/rooom2.webp',
       ],
+      time: '2023-08',
     },
     {
       type: "Sniff Jobs : Un outil pour la recherche d'emploi",
@@ -266,6 +274,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/jobs1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/jobs2.webp',
       ],
+      time: '2023-07',
     },
     {
       type: "Mon Vieux Grimoire : Back-end d'un site de notation de livres",
@@ -288,6 +297,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/grimoire1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/grimoire2.webp',
       ],
+      time: '2023-06',
     },
     {
       type: 'Kasa Immobilière : Site de location',
@@ -302,6 +312,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/kasa1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/kasa2.webp',
       ],
+      time: '2023-05',
     },
     {
       type: 'Gestion de Blogs',
@@ -316,6 +327,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/blog1.png',
         'https://projects-image.s3.eu-west-3.amazonaws.com/blog2.png',
       ],
+      time: '2023-04',
     },
     {
       type: 'Sophie Bluel : Portfolio Architecte',
@@ -330,6 +342,7 @@ export const projects = {
         'https://projects-image.s3.eu-west-3.amazonaws.com/sophie1.webp',
         'https://projects-image.s3.eu-west-3.amazonaws.com/sophie2.webp',
       ],
+      time: '2023-03',
     },
     {
       type: 'Nina Carducci : SEO',
@@ -347,6 +360,7 @@ export const projects = {
         'WAVE Evaluation Tool',
       ],
       pictures: ['https://projects-image.s3.eu-west-3.amazonaws.com/nina1.webp'],
+      time: '2023-02',
     },
     {
       type: "Booki : Page d'accueil d'une agence de voyage",
@@ -358,6 +372,7 @@ export const projects = {
       demo: 'https://yilizzz.github.io/Booki/',
       techniques: ['HTML', 'CSS', 'Media Query', 'Flexbox'],
       pictures: ['https://projects-image.s3.eu-west-3.amazonaws.com/booki1.webp'],
+      time: '2023-01',
     },
   ],
 };
