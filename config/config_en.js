@@ -126,7 +126,7 @@ export const projects_en = {
     {
       type: `What if : Science fiction inspiration app (AI and data visualisation)`,
       category: 'Fullstack',
-      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/whatif1.webp',
+      image: 'https://projects-image.s3.eu-west-3.amazonaws.com/whatif.webp',
       title: 'What if',
       description:
         'Assistant application for science fiction writers: use AI to analyse scientific news and generate inspiration, includes a plan structuring feature.',
@@ -140,7 +140,7 @@ export const projects_en = {
         'Capacitor',
         'Tailwind CSS',
       ],
-      pictures: ['https://projects-image.s3.eu-west-3.amazonaws.com/whatif1.webp'],
+      pictures: ['https://projects-image.s3.eu-west-3.amazonaws.com/whatif.webp'],
       time: '2025-12',
     },
     {
