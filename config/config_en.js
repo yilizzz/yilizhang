@@ -54,9 +54,8 @@ export const intro_en = {
 export const presentation_en = {
   title: 'Who am I',
   description: [
-    '**Full-stack Developer (React / Node.js)**, I design innovative and high-performance web applications. My expertise is based on advanced mastery of the **React, Next.js and TypeScript** ecosystem, with a proven ability to orchestrate complete architectures : from database modelling (PostgreSQL, MongoDB) to creating high-performance REST APIs (Directus, Node.js). I manage CRUD operations, data security and workflow automation through CI/CD pipelines (GitHub Actions) with precision. My projects include technical achievements such as AI integration, data visualisation with D3.js and deployment of PWA solutions. ',
+    '**Front end Developer**, I design innovative and high-performance web applications. My expertise is based on advanced mastery of the **React, Next.js and TypeScript** ecosystem, with a proven ability to orchestrate complete architectures : from database modelling (PostgreSQL, MongoDB) to creating high-performance REST APIs (Directus, Node.js). I manage CRUD operations, data security and workflow automation through CI/CD pipelines (GitHub Actions) with precision. My projects include technical achievements such as AI integration, data visualisation with D3.js and deployment of PWA solutions. ',
     'I skilfully handle tools such as **React Query, Zustand and Ark-UI** to ensure pixel-perfect and maintainable interfaces. My multicultural background has shaped my **strong adaptability** and a collaborative spirit that brings positive energy to every team. ',
-    'I am actively seeking a **Full-stack or Front-end developer** position, available immediately.',
   ],
 };
 
