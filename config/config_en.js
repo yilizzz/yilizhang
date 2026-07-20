@@ -31,6 +31,10 @@ export const navigation_en = {
       // link: "http://localhost:3000/#contact",
       link: 'https://yilizhang.vercel.app/#contact',
     },
+    {
+      title: 'Hotel Receptionist (Resume)',
+      link: '/receptionist',
+    },
   ],
 };
 export const intro_en = {

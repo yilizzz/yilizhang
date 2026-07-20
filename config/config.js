@@ -31,6 +31,10 @@ export const navigation = {
       // link: "http://localhost:3000/#contact",
       link: 'https://yilizhang.vercel.app/#contact',
     },
+    {
+      title: 'Réceptionniste (CV)',
+      link: '/receptionist',
+    },
   ],
 };
 export const intro = {

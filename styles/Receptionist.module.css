@@ -1,0 +1,26 @@
+:root{
+  --accent:#6f42c1;
+}
+.page{background:#fff}
+.container{max-width:1100px}
+.header{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.download{margin-top:8px}
+.grid{margin-top:24px}
+.aside{padding-right:20px}
+.card{background:#fafafa;border-radius:8px;padding:18px;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+.skillRow{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.skillLabel{flex:1;font-size:0.95rem}
+.skillBar{height:10px;background:linear-gradient(90deg,var(--accent),#d1a3ff);border-radius:999px;flex-basis:60%;min-width:80px}
+.skillValue{width:40px;text-align:right;font-size:0.85rem}
+.main{padding-left:20px}
+.experienceList{display:flex;flex-direction:column;gap:12px}
+.experience{padding:12px;border-radius:8px;border:1px solid #eee;cursor:pointer;background:#fff}
+.experience:hover{box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.active{border-color:var(--accent);background:linear-gradient(180deg,#fff,#fbf7ff)}
+.expHeader{display:flex;justify-content:space-between;align-items:center}
+.expMeta{font-size:0.9rem;color:#666}
+.expDetails{margin-top:8px;color:#333}
+.timeline{margin-top:12px;border-left:2px dashed #eee;padding-left:12px}
+.timelineItem{display:flex;gap:12px;align-items:flex-start;padding:8px 0}
+.dot{width:10px;height:10px;background:var(--accent);border-radius:50%;margin-right:6px;margin-left:-8px}
+.expMetaSmall{font-size:0.85rem;color:#666}
